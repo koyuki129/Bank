@@ -1,23 +1,21 @@
-<h3>Simulera</h3>
+<h3>Överföringar konton</h3>
+
 <p>Simulera ändringar som inte går/ska gå att göra i det vanliga användargränssnittet.</p>
 <p>(Denna sida kommer inte att vara nåbar via någon meny i den färdiga prototypen.)</p>
-<form class="simulate-form">
+<form class="transfer-form">
   <div class="form-group">
-    <label for="accountNumber"><small>Konto</small></label>
-    <select class="form-control" id="accountNumber"></select>
+    <label for="fromAccountNumber"><small>Från konto</small></label>
+    <select class="form-control" id="fromAccountNumber"></select>
   </div>
   <div class="form-group">
-    <label for="depositOrWithdraw"><small>Insättning eller uttag</small></label>
-    <select class="form-control" id="depositOrWithdraw">
-      <option value="deposit">Insättning</option>
-      <option value="withdraw">Uttag</option>
-    </select>
+    <label for="toAccountNumber"><small>Till konto</small></label>
+    <input class="form-control" id="toAccountNumber"></input>
   </div>
   <div class="form-group">
     <label for="sum"><small>Summa (SEK)</small></label>
     <input type="number" step="any" class="form-control" id="sum" placeholder="Summa i SEK">
   </div>
-  <form class="simulate-form">
+  <form class="transfer-form">
     <div class="form-group">
     </div>
     <div class="form-group">

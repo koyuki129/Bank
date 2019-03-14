@@ -1,0 +1,52 @@
+<h3 id="accountname"></h3>
+<section class="history row px-2">
+  <table class="table table-striped col-12">
+    <thead>
+      <tr>
+        <th scope="col">Meddelande</th>
+        <th scope="col">Summa</th>
+        <th scope="col" class="text-right">Tid</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</section>
+
+
+<section class="row px-2">
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addAccountModal">
+    Lägg till nytt konto
+  </button>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="addAccountModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Visa mer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="newAccountName"><small>Kontonamn</small></label>
+          <input type="text" class="form-control" id="newAccountName" placeholder="Ange ett valfritt kontonamn">
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Avbryt</button>
+        <button type="button" class="add-account-btn btn btn-primary" data-dismiss="modal">Lägg till</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="mt-3"><b>Tips:</b></p>
+<p>Nästa steg vore att göra kontona klickbara, så att man kan se kontoutdrag/historik.</p>
+<p>En annan sak som saknas är att kunna ta bort konton...</p>

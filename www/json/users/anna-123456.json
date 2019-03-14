@@ -5,8 +5,13 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 21448.55,
+        "balance": 23448.55,
         "history": [
+          {
+            "label": "lkfeesljfoäaij",
+            "amount": 2000,
+            "time": "2019-03-14 10:49"
+          },
           {
             "label": "Skatteåterbäring 2018",
             "amount": 9023.5,
@@ -33,8 +38,13 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 2500,
+        "balance": 2377,
         "history": [
+          {
+            "label": "aaaaa",
+            "amount": -123,
+            "time": "2019-03-14 14:33"
+          },
           {
             "label": "Från moster Olga",
             "amount": 2500,
