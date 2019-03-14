@@ -55,6 +55,10 @@ class SpaHandler {
     if(hash === 'transfer'){
       App.transfer.updateDisplay();
     }
+    if(hash === 'transfermyaccount'){
+      App.transferme.updateDisplay();
+    }
   }
+  
 
 }
