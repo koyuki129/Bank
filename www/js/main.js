@@ -1,2 +1,1 @@
-// Create a Single Page Application handler
-new SpaHandler();
+new App();

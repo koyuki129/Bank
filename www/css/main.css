@@ -1,0 +1,23 @@
+.nav-link:not(.active) {
+  color: #000;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.only-if-logged-in, .only-if-not-logged-in {
+  display: none;
+}
+
+p {
+  margin-top: -0.7rem;
+}
+
+h3, h4, h5 {
+  margin-bottom: 1rem;
+}
+
+table {
+  border-bottom: 1px solid #ddd;
+}

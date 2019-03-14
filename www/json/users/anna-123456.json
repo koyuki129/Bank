@@ -1,0 +1,63 @@
+{
+  "data": {
+    "username": "anna",
+    "myFile": "users/anna-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 21448.55,
+        "history": [
+          {
+            "label": "Skatteåterbäring 2018",
+            "amount": 9023.5,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Kortköp - Åhlens",
+            "amount": -599.95,
+            "time": "2019-03-14 03:37"
+          },
+          {
+            "label": "Hyra",
+            "amount": -6000,
+            "time": "2019-02-27 17:28"
+          },
+          {
+            "label": "Lön februari",
+            "amount": 19025,
+            "time": "2019-02-25 10:35"
+          }
+        ],
+        "accountNumber": "5870-495566",
+        "⚙": "Account"
+      },
+      {
+        "name": "Sparkonto",
+        "balance": 2500,
+        "history": [
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          }
+        ],
+        "accountNumber": "6022-944554",
+        "⚙": "Account"
+      },
+      {
+        "name": "Semester",
+        "balance": 9027.25,
+        "history": [
+          {
+            "label": "Sparat till semester",
+            "amount": 9027.25,
+            "time": "2019-03-14 03:42"
+          }
+        ],
+        "accountNumber": "3808-447613",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
