@@ -9,11 +9,17 @@ class AccountDetails {
     let html = '';
     // loop through the logged in users accounts and create html
     for (let account of App.user.accounts) {
-      html += `<tr>
-          <th scope="row">${account.name}</th>
-          <td>${account.accountNumber}</td>
-          <td class="text-right">${this.toSwedishFormat(account.balance)}</td>
-      </tr>`;
+
+      if (account.name == this.accountName) {
+        for (let history of account.history) {
+          html += `<tr>
+              <th scope="row">${history.label}</th>
+              <td>${history.amount}</td>
+              <td class="text-right">${history.time}</td>
+          </tr>`;
+        }
+      }
+
     }
     // put the html in the DOM
     $('.history tbody').html(html);
