@@ -38,8 +38,13 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 2500,
+        "balance": 2377,
         "history": [
+          {
+            "label": "aaaaa",
+            "amount": -123,
+            "time": "2019-03-14 14:33"
+          },
           {
             "label": "Från moster Olga",
             "amount": 2500,
