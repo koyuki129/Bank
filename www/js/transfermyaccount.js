@@ -26,9 +26,11 @@ class Transferme {
       // convert the sum to a number - if not possible set it to 0
       f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
       // Get the correct account
-      let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
+      let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
+      accountFrom.withdraw(f.label, f.sum);
+      let accountTo = App.user.accounts.filter(account => account.accountNumber === f.toAccountNumber)[0];
+      accountTo.deposit(f.label, f.sum);
       // Deposit or withdraw
-      account[f.depositOrWithdraw](f.label, f.sum);
       // Save the user data
       App.user.save();
       // Goto the my-accounts page

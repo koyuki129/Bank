@@ -6,13 +6,7 @@
     <label for="fromAccountNumber"><small>Konto</small></label>
     <select class="form-control" id="fromAccountNumber"></select>
   </div>
-  <div class="form-group">
-    <label for="depositOrWithdraw"><small>Insättning eller uttag</small></label>
-    <select class="form-control" id="depositOrWithdraw">
-      <option value="deposit">Insättning</option>
-      <option value="withdraw">Uttag</option>
-    </select>
-  </div>
+
   <div class="form-group">
     <label for="sum"><small>Summa (SEK)</small></label>
     <input type="number" step="any" class="form-control" id="sum" placeholder="Summa i SEK">
@@ -22,6 +16,12 @@
     </div>
     <div class="form-group">
   <div class="form-group">
+        <form class="transferme-form">
+                <div class="form-group">
+                  <label for="toAccountNumber"><small>Konto</small></label>
+                  <select class="form-control" id="toAccountNumber"></select>
+                </div>
+                <div class="form-group">
     <label for="label"><small>Meddelande</small></label>
     <input type="text" class="form-control" id="label" placeholder="Meddelande som ska visas i kontoutdraget">
   </div>
