@@ -1,0 +1,29 @@
+<h3>Överföringar egna konton</h3>
+<p>Simulera ändringar som inte går/ska gå att göra i det vanliga användargränssnittet.</p>
+<p>(Denna sida kommer inte att vara nåbar via någon meny i den färdiga prototypen.)</p>
+<form class="transferme-form">
+  <div class="form-group">
+    <label for="fromAccountNumber"><small>Konto</small></label>
+    <select class="form-control" id="fromAccountNumber"></select>
+  </div>
+  <div class="form-group">
+    <label for="depositOrWithdraw"><small>Insättning eller uttag</small></label>
+    <select class="form-control" id="depositOrWithdraw">
+      <option value="deposit">Insättning</option>
+      <option value="withdraw">Uttag</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="sum"><small>Summa (SEK)</small></label>
+    <input type="number" step="any" class="form-control" id="sum" placeholder="Summa i SEK">
+  </div>
+  <form class="transferme-form">
+    <div class="form-group">
+    </div>
+    <div class="form-group">
+  <div class="form-group">
+    <label for="label"><small>Meddelande</small></label>
+    <input type="text" class="form-control" id="label" placeholder="Meddelande som ska visas i kontoutdraget">
+  </div>
+  <button type="submit" class="btn btn-primary float-right mt-3">Utför</button>
+</form>
