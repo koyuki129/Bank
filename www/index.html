@@ -1,10 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sweden Bank</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Hej!</h1>
-  </body>
+
+<head>
+  <title>Registrera & logga in m.m.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/libs/bootstrap.css">
+  <link rel="stylesheet" href="css/sticky-footer.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="p-3 bg-primary text-light">
+    <h2 class="d-inline-block">Registrera & logga in m.m.</h2>
+    <small class="float-right only-if-logged-in">Inloggad som <span class="username"></span></small>
+  </header>
+  <main class="container-fluid mt-4">
+    <div class="row">
+      <aside class="col-4 col-sm-3">
+        <nav>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#start">Start</a>
+            </li>
+            <li class="nav-item only-if-not-logged-in">
+              <a class="nav-link" href="#login">Logga in</a>
+            </li>
+            <li class="nav-item only-if-not-logged-in">
+              <a class="nav-link" href="#register">Bli kund</a>
+            </li>
+            <li class="nav-item only-if-logged-in">
+              <a class="nav-link" href="#my-accounts">Mina konton</a>
+            </li>
+            <li class="nav-item only-if-logged-in">
+              <a class="nav-link" href="#logout">Logga ut</a>
+            </li>
+            <li class="nav-item only-if-logged-in">
+              <a class="nav-link" href="#simulate">...simulera...</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <article class="col-7 col-sm-8"></article>
+    </div>
+  </main>
+  <footer class="text-center bg-primary text-light p-2 mt-4">© 2019 NodeHill</footer>
+  <!-- Libraries -->
+  <script src="/jsonflex.js"></script>
+  <script src="/js/libs/jquery.js"></script>
+  <script src="/js/libs/popper.js"></script>
+  <script src="/js/libs/bootstrap.js"></script>
+  <!-- My own script(s) -->
+  <script src="/js/App.js"></script>
+  <script src="/js/SpaHandler.js"></script>
+  <script src="/js/RegisterUser.js"></script>
+  <script src="/js/Login.js"></script>
+  <script src="/js/MyAccounts.js"></script>
+  <script src="/js/Simulate.js"></script>
+  <script src="/js/User.js"></script>
+  <script src="/js/Account.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
 </html>
