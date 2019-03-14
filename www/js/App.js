@@ -10,6 +10,7 @@ class App {
     App.myAccounts = new MyAccounts();
     App.simulate = new Simulate();
     App.transfer = new Transfer();
+    App.accountDetails = new AccountDetails();
     App.login = new Login();
 
     // Instances that we don't need to reach/communicate with
