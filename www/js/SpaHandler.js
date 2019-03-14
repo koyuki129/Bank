@@ -49,6 +49,9 @@ class SpaHandler {
     if(hash === 'simulate'){
       App.simulate.updateDisplay();
     }
+    if(hash === 'transfer'){
+      App.transfer.updateDisplay();
+    }
   }
 
 }
