@@ -5,8 +5,93 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": -13489.450000000186,
+        "balance": -200159.4500000002,
         "history": [
+          {
+            "label": "lfkjdslk",
+            "amount": -89798,
+            "time": "2019-03-18 13:38"
+          },
+          {
+            "label": "uhhuij",
+            "amount": -7777,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "fdsf",
+            "amount": -3333,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "eddd",
+            "amount": -2222,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "dddd",
+            "amount": -333,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "rrr",
+            "amount": -4444,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "hdsakj",
+            "amount": -666,
+            "time": "2019-03-18 13:36"
+          },
+          {
+            "label": "hej",
+            "amount": -8888,
+            "time": "2019-03-18 13:36"
+          },
+          {
+            "label": "hejhej",
+            "amount": -44544,
+            "time": "2019-03-18 13:36"
+          },
+          {
+            "label": "ddd",
+            "amount": -2222,
+            "time": "2019-03-18 13:35"
+          },
+          {
+            "label": "sss",
+            "amount": -12222,
+            "time": "2019-03-18 13:35"
+          },
+          {
+            "label": "dssss",
+            "amount": -222,
+            "time": "2019-03-18 13:35"
+          },
+          {
+            "label": "wwww",
+            "amount": -3333,
+            "time": "2019-03-18 13:35"
+          },
+          {
+            "label": "eeee",
+            "amount": -3333,
+            "time": "2019-03-18 13:34"
+          },
+          {
+            "label": "ddd",
+            "amount": -3333,
+            "time": "2019-03-18 13:34"
+          },
+          {
+            "label": "",
+            "amount": 23344,
+            "time": "2019-03-18 13:34"
+          },
+          {
+            "label": "",
+            "amount": -23344,
+            "time": "2019-03-18 13:34"
+          },
           {
             "label": "",
             "amount": -33333,
@@ -363,8 +448,38 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 35760,
+        "balance": 101636,
         "history": [
+          {
+            "label": "hejhej",
+            "amount": 44544,
+            "time": "2019-03-18 13:36"
+          },
+          {
+            "label": "ddd",
+            "amount": 2222,
+            "time": "2019-03-18 13:35"
+          },
+          {
+            "label": "sss",
+            "amount": 12222,
+            "time": "2019-03-18 13:35"
+          },
+          {
+            "label": "dssss",
+            "amount": 222,
+            "time": "2019-03-18 13:35"
+          },
+          {
+            "label": "wwww",
+            "amount": 3333,
+            "time": "2019-03-18 13:35"
+          },
+          {
+            "label": "eeee",
+            "amount": 3333,
+            "time": "2019-03-18 13:34"
+          },
           {
             "label": "",
             "amount": 33333,
@@ -391,8 +506,48 @@
       },
       {
         "name": "Semester",
-        "balance": 15693.25,
+        "balance": 133154.25,
         "history": [
+          {
+            "label": "lfkjdslk",
+            "amount": 89798,
+            "time": "2019-03-18 13:38"
+          },
+          {
+            "label": "uhhuij",
+            "amount": 7777,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "fdsf",
+            "amount": 3333,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "eddd",
+            "amount": 2222,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "dddd",
+            "amount": 333,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "rrr",
+            "amount": 4444,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "hdsakj",
+            "amount": 666,
+            "time": "2019-03-18 13:36"
+          },
+          {
+            "label": "hej",
+            "amount": 8888,
+            "time": "2019-03-18 13:36"
+          },
           {
             "label": "",
             "amount": 6666,
