@@ -5,10 +5,34 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 25398.549999999814,
+        "balance": -13489.450000000186,
         "history": [
           {
-<<<<<<< Updated upstream
+            "label": "",
+            "amount": -33333,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "hej",
+            "amount": -5555,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "dsfdsds",
+            "amount": 0,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "",
+            "amount": 4324343,
+            "time": "2019-03-18 11:39"
+          },
+          {
+            "label": "",
+            "amount": -4324343,
+            "time": "2019-03-18 11:39"
+          },
+          {
             "label": "",
             "amount": 3343443,
             "time": "2019-03-18 11:33"
@@ -19,9 +43,6 @@
             "time": "2019-03-18 11:33"
           },
           {
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
             "label": "test",
             "amount": 150,
             "time": "3/14/2019, 3:48 PM"
@@ -310,11 +331,6 @@
             "label": "test",
             "amount": 150,
             "time": "3/14/2019, 3:48 PM"
-=======
-            "label": "",
-            "amount": 0,
-            "time": "2019-03-14 16:06"
->>>>>>> Stashed changes
           },
           {
             "label": "lkfeesljfoäaij",
@@ -347,26 +363,17 @@
       },
       {
         "name": "Sparkonto",
-<<<<<<< Updated upstream
-        "balance": 2427,
+        "balance": 35760,
         "history": [
+          {
+            "label": "",
+            "amount": 33333,
+            "time": "2019-03-18 11:40"
+          },
           {
             "label": "50 kr",
             "amount": 50,
             "time": "2019-03-18 11:19"
-=======
-        "balance": 3154,
-        "history": [
-          {
-            "label": "",
-            "amount": 0,
-            "time": "2019-03-14 16:05"
-          },
-          {
-            "label": "",
-            "amount": 777,
-            "time": "2019-03-14 15:50"
->>>>>>> Stashed changes
           },
           {
             "label": "aaaaa",
