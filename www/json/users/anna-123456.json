@@ -5,8 +5,13 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 486510.5499999998,
+        "balance": 481510.5499999998,
         "history": [
+          {
+            "label": "",
+            "amount": -5000,
+            "time": "2019-03-18 13:38"
+          },
           {
             "label": "lotto",
             "amount": 500000,
@@ -368,8 +373,13 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 35760,
+        "balance": 40760,
         "history": [
+          {
+            "label": "",
+            "amount": 5000,
+            "time": "2019-03-18 13:38"
+          },
           {
             "label": "",
             "amount": 33333,
