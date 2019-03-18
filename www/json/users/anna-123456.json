@@ -5,8 +5,38 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 23448.55,
+        "balance": 272324.55,
         "history": [
+          {
+            "label": "",
+            "amount": 0,
+            "time": "2019-03-18 11:21"
+          },
+          {
+            "label": "hej3",
+            "amount": 2222,
+            "time": "2019-03-14 15:21"
+          },
+          {
+            "label": "hej2",
+            "amount": 222222,
+            "time": "2019-03-14 15:20"
+          },
+          {
+            "label": "hej1",
+            "amount": 22222,
+            "time": "2019-03-14 15:20"
+          },
+          {
+            "label": "",
+            "amount": 2222,
+            "time": "2019-03-14 15:20"
+          },
+          {
+            "label": "csdf",
+            "amount": -12,
+            "time": "2019-03-14 15:19"
+          },
           {
             "label": "lkfeesljfoäaij",
             "amount": 2000,
