@@ -5,8 +5,18 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 23448.55,
+        "balance": 16732.55,
         "history": [
+          {
+            "label": "50 kr",
+            "amount": -50,
+            "time": "2019-03-18 11:19"
+          },
+          {
+            "label": "",
+            "amount": -6666,
+            "time": "2019-03-14 16:01"
+          },
           {
             "label": "lkfeesljfoäaij",
             "amount": 2000,
@@ -38,8 +48,13 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 2377,
+        "balance": 2427,
         "history": [
+          {
+            "label": "50 kr",
+            "amount": 50,
+            "time": "2019-03-18 11:19"
+          },
           {
             "label": "aaaaa",
             "amount": -123,
@@ -56,8 +71,13 @@
       },
       {
         "name": "Semester",
-        "balance": 9027.25,
+        "balance": 15693.25,
         "history": [
+          {
+            "label": "",
+            "amount": 6666,
+            "time": "2019-03-14 16:01"
+          },
           {
             "label": "Sparat till semester",
             "amount": 9027.25,
