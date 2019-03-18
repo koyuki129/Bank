@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Registrera & logga in m.m.</title>
+  <title>Sweden Bank AB</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="css/libs/bootstrap.css">
@@ -12,7 +12,7 @@
 
 <body>
   <header class="p-3 bg-primary text-light">
-    <h2 class="d-inline-block">Registrera & logga in m.m.</h2>
+    <h2 class="d-inline-block">Sweden Bank AB</h2>
     <small class="float-right only-if-logged-in">Inloggad som <span class="username"></span></small>
   </header>
   <main class="container-fluid mt-4">
@@ -20,7 +20,7 @@
       <aside class="col-4 col-sm-3">
         <nav>
           <ul class="nav flex-column">
-            <li class="nav-item">
+            <li class="nav-item only-if-logged-in">
               <a class="nav-link" href="#start">Start</a>
             </li>
             <li class="nav-item only-if-not-logged-in">
@@ -32,9 +32,7 @@
             <li class="nav-item only-if-logged-in">
               <a class="nav-link" href="#my-accounts">Mina konton</a>
             </li>
-            <li class="nav-item only-if-logged-in">
-              <a class="nav-link" href="#logout">Logga ut</a>
-            </li>
+            
           </li>
           <li class="nav-item only-if-logged-in">
             <a class="nav-link" href="#transfer">Överföringar andra konton</a>
@@ -45,6 +43,10 @@
         </li>
             <li class="nav-item only-if-logged-in">
               <a class="nav-link" href="#simulate">...simulera...</a>
+              
+            </li>
+            <li class="nav-item only-if-logged-in">
+              <a class="nav-link" href="#logout">Logga ut</a>
             </li>
           </ul>
         </nav>
@@ -71,9 +73,12 @@
   <script src="/js/User.js"></script>
   <script src="/js/Account.js"></script>
   <script src="/js/Autogiro.js"></script>
+  <script src="/js/Start.js"></script>
 
   <!-- main must be the last file to load-->
   <script src="/js/main.js"></script>
+
+
   
   
 </body>

@@ -13,6 +13,7 @@ class App {
     App.transfer = new Transfer();
     App.accountDetails = new AccountDetails();
     App.login = new Login();
+    App.start = new Start();
     App.transferme = new Transferme();
   
 
