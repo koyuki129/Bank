@@ -1,7 +1,7 @@
 class Autogiro {
 
   constructor() {
-    this.form = '.autogiro-form';
+    this.form = ('.autogiro-form');
     $(document).on('submit', this.form, e => this.onsubmit(e));
   }
 
@@ -12,6 +12,7 @@ class Autogiro {
     for (let account of App.user.accounts) {
       html += `<option value="${account.accountNumber}">${account.name} - ${account.accountNumber}</option>`;
     }
+
     // put the html in the DOM
     $(this.form).find('#accountNumber').html(html);
   }

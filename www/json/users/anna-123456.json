@@ -8,6 +8,71 @@
         "balance": -24601.45,
         "history": [
           {
+            "label": "",
+            "amount": -100,
+            "time": "2019-03-18 14:46"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "2019-03-18 14:45"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "2019-03-18 14:45"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "2019-03-18 14:45"
+          },
+          {
+            "label": "",
+            "amount": -5555,
+            "time": "2019-03-18 14:26"
+          },
+          {
+            "label": "",
+            "amount": -300,
+            "time": "2019-03-18 12:28"
+          },
+          {
+            "label": "",
+            "amount": -33333,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "hej",
+            "amount": -5555,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "dsfdsds",
+            "amount": 0,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "",
+            "amount": 4324343,
+            "time": "2019-03-18 11:39"
+          },
+          {
+            "label": "",
+            "amount": -4324343,
+            "time": "2019-03-18 11:39"
+          },
+          {
+            "label": "",
+            "amount": 3343443,
+            "time": "2019-03-18 11:33"
+          },
+          {
+            "label": "",
+            "amount": -3343443,
+            "time": "2019-03-18 11:33"
+          },
+          {
             "label": "test",
             "amount": -25000,
             "time": "3/15/2019, 1:01 PM"
@@ -338,8 +403,48 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 2377,
+        "balance": 46715,
         "history": [
+          {
+            "label": "",
+            "amount": 100,
+            "time": "2019-03-18 14:46"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "2019-03-18 14:45"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "2019-03-18 14:45"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "2019-03-18 14:45"
+          },
+          {
+            "label": "",
+            "amount": 5555,
+            "time": "2019-03-18 14:26"
+          },
+          {
+            "label": "",
+            "amount": 5000,
+            "time": "2019-03-18 13:38"
+          },
+          {
+            "label": "",
+            "amount": 33333,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "50 kr",
+            "amount": 50,
+            "time": "2019-03-18 11:19"
+          },
           {
             "label": "aaaaa",
             "amount": -123,
@@ -426,84 +531,8 @@
       },
       {
         "name": "Semester",
-        "balance": -25972.75,
+        "balance": 9027.25,
         "history": [
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          {
-            "label": "själv",
-            "amount": -35000,
-            "time": "3/18/2019, 4:03 PM"
-          },
-          
           {
             "label": "Sparat till semester",
             "amount": 9027.25,
