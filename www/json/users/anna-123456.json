@@ -8,7 +8,6 @@
         "balance": -13489.450000000186,
         "history": [
           {
-<<<<<<< Updated upstream
             "label": "",
             "amount": -33333,
             "time": "2019-03-18 11:40"
@@ -34,8 +33,6 @@
             "time": "2019-03-18 11:39"
           },
           {
-=======
->>>>>>> Stashed changes
             "label": "",
             "amount": 3343443,
             "time": "2019-03-18 11:33"
@@ -362,11 +359,10 @@
           }
         ],
         "accountNumber": "5870-495566",
-        "?": "Account"
+        "⚙": "Account"
       },
       {
         "name": "Sparkonto",
-<<<<<<< Updated upstream
         "balance": 35760,
         "history": [
           {
@@ -375,11 +371,6 @@
             "time": "2019-03-18 11:40"
           },
           {
-=======
-        "balance": 2427,
-        "history": [
-          {
->>>>>>> Stashed changes
             "label": "50 kr",
             "amount": 50,
             "time": "2019-03-18 11:19"
@@ -396,7 +387,7 @@
           }
         ],
         "accountNumber": "6022-944554",
-        "?": "Account"
+        "⚙": "Account"
       },
       {
         "name": "Semester",
@@ -414,9 +405,9 @@
           }
         ],
         "accountNumber": "3808-447613",
-        "?": "Account"
+        "⚙": "Account"
       }
     ],
-    "?": "User"
+    "⚙": "User"
   }
 }
