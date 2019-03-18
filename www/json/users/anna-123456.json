@@ -5,6 +5,7 @@
     "accounts": [
       {
         "name": "Lönekonto",
+<<<<<<< Updated upstream
         "balance": -13489.450000000186,
         "history": [
           {
@@ -331,6 +332,64 @@
             "label": "test",
             "amount": 150,
             "time": "3/14/2019, 3:48 PM"
+=======
+        "balance": 825361.55,
+        "history": [
+          {
+            "label": "",
+            "amount": 400,
+            "time": "2019-03-16 15:19"
+          },
+          {
+            "label": "",
+            "amount": 400,
+            "time": "2019-03-16 13:33"
+          },
+          {
+            "label": "",
+            "amount": -5555,
+            "time": "2019-03-14 15:46"
+          },
+          {
+            "label": "",
+            "amount": -4444,
+            "time": "2019-03-14 15:44"
+          },
+          {
+            "label": "",
+            "amount": 44444,
+            "time": "2019-03-14 15:43"
+          },
+          {
+            "label": "",
+            "amount": -44444,
+            "time": "2019-03-14 15:43"
+          },
+          {
+            "label": "",
+            "amount": -88888,
+            "time": "2019-03-14 15:43"
+          },
+          {
+            "label": "",
+            "amount": 999999,
+            "time": "2019-03-14 15:27"
+          },
+          {
+            "label": "",
+            "amount": -999999,
+            "time": "2019-03-14 15:23"
+          },
+          {
+            "label": "",
+            "amount": -99999,
+            "time": "2019-03-14 15:22"
+          },
+          {
+            "label": "",
+            "amount": 999999,
+            "time": "2019-03-14 15:22"
+>>>>>>> Stashed changes
           },
           {
             "label": "lkfeesljfoäaij",
@@ -363,6 +422,7 @@
       },
       {
         "name": "Sparkonto",
+<<<<<<< Updated upstream
         "balance": 35760,
         "history": [
           {
@@ -374,6 +434,54 @@
             "label": "50 kr",
             "amount": 50,
             "time": "2019-03-18 11:19"
+=======
+        "balance": 99219,
+        "history": [
+          {
+            "label": "",
+            "amount": -200,
+            "time": "2019-03-18 11:18"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "2019-03-18 10:24"
+          },
+          {
+            "label": "",
+            "amount": -1000,
+            "time": "2019-03-18 10:23"
+          },
+          {
+            "label": "",
+            "amount": -400,
+            "time": "2019-03-16 15:19"
+          },
+          {
+            "label": "",
+            "amount": -400,
+            "time": "2019-03-16 13:33"
+          },
+          {
+            "label": "",
+            "amount": 5555,
+            "time": "2019-03-14 15:46"
+          },
+          {
+            "label": "",
+            "amount": 4444,
+            "time": "2019-03-14 15:44"
+          },
+          {
+            "label": "",
+            "amount": 88888,
+            "time": "2019-03-14 15:43"
+          },
+          {
+            "label": "",
+            "amount": 55,
+            "time": "2019-03-14 15:21"
+>>>>>>> Stashed changes
           },
           {
             "label": "aaaaa",
@@ -391,12 +499,31 @@
       },
       {
         "name": "Semester",
+<<<<<<< Updated upstream
         "balance": 15693.25,
         "history": [
           {
             "label": "",
             "amount": 6666,
             "time": "2019-03-14 16:01"
+=======
+        "balance": 10327.25,
+        "history": [
+          {
+            "label": "",
+            "amount": 200,
+            "time": "2019-03-18 11:18"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "2019-03-18 10:24"
+          },
+          {
+            "label": "",
+            "amount": 1000,
+            "time": "2019-03-18 10:23"
+>>>>>>> Stashed changes
           },
           {
             "label": "Sparat till semester",
