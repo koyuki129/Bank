@@ -15,6 +15,7 @@ class App {
     App.login = new Login();
     App.start = new Start();
     App.transferme = new Transferme();
+  
 
     // Instances that we don't need to reach/communicate with
     new RegisterUser();
