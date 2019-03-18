@@ -62,4 +62,8 @@ class SpaHandler {
     if(hash === 'autogiro'){
       App.autogiro.updateDisplay();
   }
+
+  if(hash === 'Start'){
+    App.Start.updateDisplay();
+}
 }}

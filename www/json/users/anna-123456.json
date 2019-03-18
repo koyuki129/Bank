@@ -5,8 +5,13 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": -13489.450000000186,
+        "balance": 486510.5499999998,
         "history": [
+          {
+            "label": "lotto",
+            "amount": 500000,
+            "time": "2019-03-18 12:53"
+          },
           {
             "label": "",
             "amount": -33333,
