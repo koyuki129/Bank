@@ -5,6 +5,7 @@
     "accounts": [
       {
         "name": "Lönekonto",
+<<<<<<< HEAD
         "balance": 272324.55,
         "history": [
           {
@@ -36,6 +37,339 @@
             "label": "csdf",
             "amount": -12,
             "time": "2019-03-14 15:19"
+=======
+        "balance": 486510.5499999998,
+        "history": [
+          {
+            "label": "lotto",
+            "amount": 500000,
+            "time": "2019-03-18 12:53"
+          },
+          {
+            "label": "",
+            "amount": -33333,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "hej",
+            "amount": -5555,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "dsfdsds",
+            "amount": 0,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "",
+            "amount": 4324343,
+            "time": "2019-03-18 11:39"
+          },
+          {
+            "label": "",
+            "amount": -4324343,
+            "time": "2019-03-18 11:39"
+          },
+          {
+            "label": "",
+            "amount": 3343443,
+            "time": "2019-03-18 11:33"
+          },
+          {
+            "label": "",
+            "amount": -3343443,
+            "time": "2019-03-18 11:33"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+          },
+          {
+            "label": "test",
+            "amount": 150,
+            "time": "3/14/2019, 3:48 PM"
+>>>>>>> master
           },
           {
             "label": "lkfeesljfoäaij",
@@ -68,9 +402,25 @@
       },
       {
         "name": "Sparkonto",
+<<<<<<< HEAD
         "balance": 2377,
         "history": [
           {
+=======
+        "balance": 35760,
+        "history": [
+          {
+            "label": "",
+            "amount": 33333,
+            "time": "2019-03-18 11:40"
+          },
+          {
+            "label": "50 kr",
+            "amount": 50,
+            "time": "2019-03-18 11:19"
+          },
+          {
+>>>>>>> master
             "label": "aaaaa",
             "amount": -123,
             "time": "2019-03-14 14:33"
@@ -86,9 +436,20 @@
       },
       {
         "name": "Semester",
+<<<<<<< HEAD
         "balance": 9027.25,
         "history": [
           {
+=======
+        "balance": 15693.25,
+        "history": [
+          {
+            "label": "",
+            "amount": 6666,
+            "time": "2019-03-14 16:01"
+          },
+          {
+>>>>>>> master
             "label": "Sparat till semester",
             "amount": 9027.25,
             "time": "2019-03-14 03:42"
