@@ -5,7 +5,7 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": -19744.450000000186,
+        "balance": -24601.45,
         "history": [
           {
             "label": "",
@@ -71,6 +71,16 @@
             "label": "",
             "amount": -3343443,
             "time": "2019-03-18 11:33"
+          },
+          {
+            "label": "test",
+            "amount": -25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": -25000,
+            "time": "3/15/2019, 1:00 PM"
           },
           {
             "label": "test",
@@ -444,6 +454,76 @@
             "label": "Från moster Olga",
             "amount": 2500,
             "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
           }
         ],
         "accountNumber": "6022-944554",
@@ -451,12 +531,107 @@
       },
       {
         "name": "Semester",
-        "balance": 15693.25,
+        "balance": -45972.75,
         "history": [
           {
-            "label": "",
-            "amount": 6666,
-            "time": "2019-03-14 16:01"
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
           },
           {
             "label": "Sparat till semester",
@@ -465,6 +640,89 @@
           }
         ],
         "accountNumber": "3808-447613",
+        "⚙": "Account"
+      },
+      {
+        "name": "Köp",
+        "balance": 25000,
+        "history": [
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          }
+        ],
+        "accountNumber": "5880-265044",
         "⚙": "Account"
       }
     ],

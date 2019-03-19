@@ -1,0 +1,36 @@
+{
+  "data": {
+    "username": "shilpa",
+    "myFile": "users/shilpa-234567",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": -25000,
+        "history": [
+          {
+            "label": "swish",
+            "amount": -25000,
+            "time": "3/18/2019, 3:36 PM"
+          }
+        ],
+        "accountNumber": "1027-905940",
+        "⚙": "Account"
+      },
+      {
+        "name": "sparkonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4293-166149",
+        "⚙": "Account"
+      },
+      {
+        "name": "semester konto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5825-160050",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
