@@ -5,8 +5,13 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 0,
+        "balance": -8,
         "history": [
+          {
+            "label": "",
+            "amount": -8,
+            "time": "2019-03-19 12:26"
+          },
           {
             "label": "",
             "amount": 0,
