@@ -29,6 +29,7 @@ class Simulate {
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Deposit or withdraw
     account[f.depositOrWithdraw](f.label, f.sum);
+    
     // Save the user data
     App.user.save();
     // Goto the my-accounts page
