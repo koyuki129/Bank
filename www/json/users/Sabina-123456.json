@@ -1,0 +1,30 @@
+{
+  "data": {
+    "username": "Sabina",
+    "myFile": "users/Sabina-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "9635-498632",
+        "⚙": "Account"
+      },
+      {
+        "name": "Semester",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8000-447448",
+        "⚙": "Account"
+      },
+      {
+        "name": "Djur",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "2069-491000",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
