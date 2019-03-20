@@ -54,7 +54,7 @@ class AccountDetails {
           </tr>`;
         }
       }
-
+  }*/
     }
     // put the html in the DOM
     $('.history tbody').html(html);*/

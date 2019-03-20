@@ -59,7 +59,11 @@ class SpaHandler {
       App.transferme.updateDisplay();
     }
     if(hash === 'account-details'){
+<<<<<<< Updated upstream
       App.accountDetails.showMore();
+=======
+      App.accountDetails.showmore();
+>>>>>>> Stashed changes
     }
   
     //if(hash === 'my-accounts'){
