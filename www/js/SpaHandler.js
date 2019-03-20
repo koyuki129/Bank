@@ -59,7 +59,7 @@ class SpaHandler {
       App.transferme.updateDisplay();
     }
     if(hash === 'account-details'){
-      App.accountDetails.showMore();
+      App.accountDetails.updateDisplay();
     }
   
     //if(hash === 'my-accounts'){
