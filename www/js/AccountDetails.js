@@ -27,7 +27,7 @@ class AccountDetails {
           this.numberOfTransactions = account.history.length;
         }
 
-        for (let i = 10; i < this.numberOfTransactions ; i++) {
+        for (let i = 0; i < this.numberOfTransactions ; i++) {
           let history = account.history[i];
           html += `<tr>
               <th scope="row">${history.label}</th>
