@@ -5,312 +5,32 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": -200159.4500000002,
+        "balance": -29724.45,
         "history": [
           {
-            "label": "lfkjdslk",
-            "amount": -89798,
-            "time": "2019-03-18 13:38"
-          },
-          {
-            "label": "uhhuij",
-            "amount": -7777,
-            "time": "2019-03-18 13:37"
-          },
-          {
-            "label": "fdsf",
-            "amount": -3333,
-            "time": "2019-03-18 13:37"
-          },
-          {
-            "label": "eddd",
-            "amount": -2222,
-            "time": "2019-03-18 13:37"
-          },
-          {
-            "label": "dddd",
-            "amount": -333,
-            "time": "2019-03-18 13:37"
-          },
-          {
-            "label": "rrr",
-            "amount": -4444,
-            "time": "2019-03-18 13:37"
-          },
-          {
-            "label": "hdsakj",
-            "amount": -666,
-            "time": "2019-03-18 13:36"
-          },
-          {
-            "label": "hej",
-            "amount": -8888,
-            "time": "2019-03-18 13:36"
-          },
-          {
-            "label": "hejhej",
-            "amount": -44544,
-            "time": "2019-03-18 13:36"
-          },
-          {
-            "label": "ddd",
-            "amount": -2222,
-            "time": "2019-03-18 13:35"
-          },
-          {
-            "label": "sss",
-            "amount": -12222,
-            "time": "2019-03-18 13:35"
-          },
-          {
-            "label": "dssss",
-            "amount": -222,
-            "time": "2019-03-18 13:35"
-          },
-          {
-            "label": "wwww",
-            "amount": -3333,
-            "time": "2019-03-18 13:35"
-          },
-          {
-            "label": "eeee",
-            "amount": -3333,
-            "time": "2019-03-18 13:34"
-          },
-          {
-            "label": "ddd",
-            "amount": -3333,
-            "time": "2019-03-18 13:34"
-          },
-          {
-            "label": "",
-            "amount": 23344,
-            "time": "2019-03-18 13:34"
-          },
-          {
-            "label": "",
-            "amount": -23344,
-            "time": "2019-03-18 13:34"
-          },
-          {
-            "label": "",
-            "amount": -33333,
-            "time": "2019-03-18 11:40"
-          },
-          {
-            "label": "hej",
-            "amount": -5555,
-            "time": "2019-03-18 11:40"
-          },
-          {
-            "label": "dsfdsds",
+            "label": "swish",
             "amount": 0,
-            "time": "2019-03-18 11:40"
+            "time": "3/19/2019, 10:50 PM"
           },
           {
-            "label": "",
-            "amount": 4324343,
-            "time": "2019-03-18 11:39"
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
           },
           {
-            "label": "",
-            "amount": -4324343,
-            "time": "2019-03-18 11:39"
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
           },
           {
-            "label": "",
-            "amount": 3343443,
-            "time": "2019-03-18 11:33"
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
           },
           {
-            "label": "",
-            "amount": -3343443,
-            "time": "2019-03-18 11:33"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
-          },
-          {
-            "label": "test",
-            "amount": 150,
-            "time": "3/14/2019, 3:48 PM"
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
           },
           {
             "label": "test",
@@ -448,37 +168,67 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 101636,
+        "balance": 35960,
         "history": [
           {
-            "label": "hejhej",
-            "amount": 44544,
-            "time": "2019-03-18 13:36"
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
           },
           {
-            "label": "ddd",
-            "amount": 2222,
-            "time": "2019-03-18 13:35"
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
           },
           {
-            "label": "sss",
-            "amount": 12222,
-            "time": "2019-03-18 13:35"
+            "label": "jj",
+            "amount": 0,
+            "time": "2019-03-19 11:37"
           },
           {
-            "label": "dssss",
-            "amount": 222,
-            "time": "2019-03-18 13:35"
+            "label": "jj",
+            "amount": 0,
+            "time": "2019-03-19 11:37"
           },
           {
-            "label": "wwww",
-            "amount": 3333,
-            "time": "2019-03-18 13:35"
+            "label": "jj",
+            "amount": 0,
+            "time": "2019-03-19 11:37"
           },
           {
-            "label": "eeee",
-            "amount": 3333,
-            "time": "2019-03-18 13:34"
+            "label": "jj",
+            "amount": 0,
+            "time": "2019-03-19 11:37"
+          },
+          {
+            "label": "jj",
+            "amount": 0,
+            "time": "2019-03-19 11:37"
+          },
+          {
+            "label": "jj",
+            "amount": 0,
+            "time": "2019-03-19 11:37"
+          },
+          {
+            "label": "jj",
+            "amount": 0,
+            "time": "2019-03-19 11:37"
+          },
+          {
+            "label": "jj",
+            "amount": 0,
+            "time": "2019-03-19 11:37"
+          },
+          {
+            "label": "jj",
+            "amount": 0,
+            "time": "2019-03-19 11:37"
+          },
+          {
+            "label": "",
+            "amount": 200,
+            "time": "2019-03-18 12:52"
           },
           {
             "label": "",
@@ -499,6 +249,61 @@
             "label": "Från moster Olga",
             "amount": 2500,
             "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
+          },
+          {
+            "label": "Från moster Olga",
+            "amount": 2500,
+            "time": "2019-03-14 03:38"
           }
         ],
         "accountNumber": "6022-944554",
@@ -506,7 +311,279 @@
       },
       {
         "name": "Semester",
-        "balance": 133154.25,
+        "balance": -45972.75,
+        "history": [
+          {
+            "label": "själv",
+            "amount": 0,
+            "time": "3/19/2019, 11:07 PM"
+          },
+          {
+            "label": "själv",
+            "amount": 0,
+            "time": "3/19/2019, 11:07 PM"
+          },
+          {
+            "label": "själv",
+            "amount": 0,
+            "time": "3/19/2019, 11:07 PM"
+          },
+          {
+            "label": "själv",
+            "amount": 0,
+            "time": "3/19/2019, 11:07 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "för mig",
+            "amount": -55000,
+            "time": "3/18/2019, 4:29 PM"
+          },
+          {
+            "label": "Sparat till semester",
+            "amount": 9027.25,
+            "time": "2019-03-14 03:42"
+          }
+        ],
+        "accountNumber": "3808-447613",
+        "⚙": "Account"
+      },
+      {
+        "name": "Köp",
+        "balance": 25000,
+        "history": [
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          },
+          {
+            "label": "test",
+            "amount": 25000,
+            "time": "3/15/2019, 1:01 PM"
+          }
+        ],
+        "accountNumber": "5880-265044",
+        "⚙": "Account"
+      },
+      {
+        "name": "666",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "9084-397841",
+        "⚙": "Account"
+      },
+      {
+        "name": "666",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1287-921111",
+        "⚙": "Account"
+      },
+      {
+        "name": "zzz",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8683-759648",
+        "⚙": "Account"
+      },
+      {
+        "name": "zzz",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6771-167264",
+        "⚙": "Account"
+      },
+      {
+        "name": "sdas",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4478-166353",
+        "⚙": "Account"
+      },
+      {
+        "name": "sdas",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6547-967841",
+        "⚙": "Account"
+      },
+      {
+        "name": "test nummer 50506569",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "7609-455634",
+        "⚙": "Account"
+      },
+      {
+        "name": "test nummer 50506569",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5170-020960",
+        "⚙": "Account"
+      },
+      {
+        "name": "last try",
+        "balance": 5000,
         "history": [
           {
             "label": "lfkjdslk",
@@ -550,16 +627,46 @@
           },
           {
             "label": "",
-            "amount": 6666,
-            "time": "2019-03-14 16:01"
-          },
-          {
-            "label": "Sparat till semester",
-            "amount": 9027.25,
-            "time": "2019-03-14 03:42"
+            "amount": 5000,
+            "time": "2019-03-20 08:10"
           }
         ],
-        "accountNumber": "3808-447613",
+        "accountNumber": "3787-144805",
+        "⚙": "Account"
+      },
+      {
+        "name": "last try",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5064-646891",
+        "⚙": "Account"
+      },
+      {
+        "name": "eller en gång till",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "3120-210890",
+        "⚙": "Account"
+      },
+      {
+        "name": "eller en gång till",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "3208-412880",
+        "⚙": "Account"
+      },
+      {
+        "name": "xxxzz",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4726-038725",
+        "⚙": "Account"
+      },
+      {
+        "name": "test",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "3046-654944",
         "⚙": "Account"
       }
     ],
