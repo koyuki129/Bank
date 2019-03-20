@@ -59,7 +59,7 @@ class SpaHandler {
       App.transferme.updateDisplay();
     }
   
-    if(hash === 'autogiro'){
+    if(hash === 'my-accounts'){
       App.autogiro.updateDisplay();
   }
 

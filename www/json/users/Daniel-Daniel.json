@@ -1,0 +1,48 @@
+{
+  "data": {
+    "username": "Daniel",
+    "myFile": "users/Daniel-Daniel",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 500000000,
+        "history": [
+          {
+            "label": "",
+            "amount": 500000000,
+            "time": "2019-03-19 10:11"
+          }
+        ],
+        "accountNumber": "6545-063308",
+        "⚙": "Account"
+      },
+      {
+        "name": "Spelkonto",
+        "balance": 50000000,
+        "history": [
+          {
+            "label": "",
+            "amount": 50000000,
+            "time": "2019-03-19 10:11"
+          }
+        ],
+        "accountNumber": "5460-320480",
+        "⚙": "Account"
+      },
+      {
+        "name": "Musikkonto",
+        "balance": 5000000,
+        "history": [
+          {
+            "label": "",
+            "amount": 5000000,
+            "time": "2019-03-19 10:11"
+          }
+        ],
+        "accountNumber": "5999-873374",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
