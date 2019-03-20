@@ -1,9 +1,8 @@
-class Autogiro extends MyAccounts{
+class Autogiro {
 
   constructor() {
-    super('.myaccounts-form');
-    $(document) .on('submit', this.form, e => this.onsubmit(e));
-    this.form = '.autogiro-form';
+    this.form = ('.autogiro-form');
+    $(document).on('submit', this.form, e => this.onsubmit(e));
   }
 
   updateDisplay() {
@@ -13,8 +12,9 @@ class Autogiro extends MyAccounts{
     for (let account of App.user.accounts) {
       html += `<option value="${account.accountNumber}">${account.name} - ${account.accountNumber}</option>`;
     }
+
     // put the html in the DOM
-    $(this.form).find('#fromAccountNumber').html(html);
+    $(this.form).find('#accountNumber').html(html);
   }
 
   onsubmit(e) {
@@ -26,9 +26,9 @@ class Autogiro extends MyAccounts{
     // convert the sum to a number - if not possible set it to 0
     f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
     // Get the correct account
-    let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
-    accountFrom.withdraw(f.label, f.sum);
+    let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Deposit or withdraw
+    account[f.depositOrWithdraw](f.label, f.sum);
     // Save the user data
     App.user.save();
     // Goto the my-accounts page
