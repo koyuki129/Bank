@@ -5,22 +5,50 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 0,
-        "history": [],
+        "balance": 39700,
+        "history": [
+          {
+            "label": "Semester",
+            "amount": -40000,
+            "time": "2019-03-20 08:02"
+          },
+          {
+            "label": "Lön",
+            "amount": 80000,
+            "time": "2019-03-20 08:00"
+          },
+          {
+            "label": "",
+            "amount": -300,
+            "time": "2019-03-20 07:59"
+          }
+        ],
         "accountNumber": "9635-498632",
         "⚙": "Account"
       },
       {
         "name": "Semester",
-        "balance": 0,
-        "history": [],
+        "balance": 40000,
+        "history": [
+          {
+            "label": "Semester",
+            "amount": 40000,
+            "time": "2019-03-20 08:02"
+          }
+        ],
         "accountNumber": "8000-447448",
         "⚙": "Account"
       },
       {
         "name": "Djur",
-        "balance": 0,
-        "history": [],
+        "balance": 40000,
+        "history": [
+          {
+            "label": "",
+            "amount": 40000,
+            "time": "2019-03-20 08:03"
+          }
+        ],
         "accountNumber": "2069-491000",
         "⚙": "Account"
       }
