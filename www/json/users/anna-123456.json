@@ -5,8 +5,18 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": -29724.45,
+        "balance": -33225.45,
         "history": [
+          {
+            "label": "df",
+            "amount": -45,
+            "time": "3/20/2019, 9:59 AM"
+          },
+          {
+            "label": "gh",
+            "amount": -3456,
+            "time": "3/20/2019, 9:58 AM"
+          },
           {
             "label": "swish",
             "amount": 0,
@@ -527,8 +537,14 @@
       },
       {
         "name": "666",
-        "balance": 0,
-        "history": [],
+        "balance": 45,
+        "history": [
+          {
+            "label": "df",
+            "amount": 45,
+            "time": "3/20/2019, 9:59 AM"
+          }
+        ],
         "accountNumber": "9084-397841",
         "⚙": "Account"
       },
