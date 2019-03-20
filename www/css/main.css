@@ -1,6 +1,15 @@
 .nav-link:not(.active) {
   color: #000;
 }
+header { 
+  background-color: grey
+
+}
+title {
+  text-align: center;
+  
+}
+
 
 .nav-link.active {
   font-weight: bold;
@@ -16,6 +25,8 @@ p {
 
 h3, h4, h5 {
   margin-bottom: 1rem;
+  text-align: center;
+
 }
 
 table {
