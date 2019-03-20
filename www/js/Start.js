@@ -5,7 +5,7 @@ class Start {
 
   showLastTransactions() {
       if (!App.user) { return; }
-
+      
       let numberOfTransactions = 5;
       let html = '';
 
