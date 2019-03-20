@@ -1,6 +1,6 @@
-class Autogiro extends MyAccounts{
+/*class Autogiro extends MyAccounts{
 
-  constructor() {
+ constructor() {
     super('.myaccounts-form');
     $(document) .on('submit', this.form, e => this.onsubmit(e));
     this.form = '.autogiro-form';
@@ -43,4 +43,4 @@ class Autogiro extends MyAccounts{
     this.formdata = formdata;
   }
 
-}
+}/*

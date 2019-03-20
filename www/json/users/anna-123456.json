@@ -5,8 +5,18 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": -24601.45,
+        "balance": -29724.45,
         "history": [
+          {
+            "label": "",
+            "amount": -5000,
+            "time": "2019-03-20 08:10"
+          },
+          {
+            "label": "",
+            "amount": -123,
+            "time": "2019-03-20 08:10"
+          },
           {
             "label": "",
             "amount": -100,
@@ -768,6 +778,110 @@
           }
         ],
         "accountNumber": "5880-265044",
+        "⚙": "Account"
+      },
+      {
+        "name": "666",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "9084-397841",
+        "⚙": "Account"
+      },
+      {
+        "name": "666",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1287-921111",
+        "⚙": "Account"
+      },
+      {
+        "name": "zzz",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8683-759648",
+        "⚙": "Account"
+      },
+      {
+        "name": "zzz",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6771-167264",
+        "⚙": "Account"
+      },
+      {
+        "name": "sdas",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4478-166353",
+        "⚙": "Account"
+      },
+      {
+        "name": "sdas",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6547-967841",
+        "⚙": "Account"
+      },
+      {
+        "name": "test nummer 50506569",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "7609-455634",
+        "⚙": "Account"
+      },
+      {
+        "name": "test nummer 50506569",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5170-020960",
+        "⚙": "Account"
+      },
+      {
+        "name": "last try",
+        "balance": 5000,
+        "history": [
+          {
+            "label": "",
+            "amount": 5000,
+            "time": "2019-03-20 08:10"
+          }
+        ],
+        "accountNumber": "3787-144805",
+        "⚙": "Account"
+      },
+      {
+        "name": "last try",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5064-646891",
+        "⚙": "Account"
+      },
+      {
+        "name": "eller en gång till",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "3120-210890",
+        "⚙": "Account"
+      },
+      {
+        "name": "eller en gång till",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "3208-412880",
+        "⚙": "Account"
+      },
+      {
+        "name": "xxxzz",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4726-038725",
+        "⚙": "Account"
+      },
+      {
+        "name": "test",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "3046-654944",
         "⚙": "Account"
       }
     ],
