@@ -5,8 +5,18 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": -29724.45,
+        "balance": -33225.45,
         "history": [
+          {
+            "label": "df",
+            "amount": -45,
+            "time": "3/20/2019, 9:59 AM"
+          },
+          {
+            "label": "gh",
+            "amount": -3456,
+            "time": "3/20/2019, 9:58 AM"
+          },
           {
             "label": "swish",
             "amount": 0,
@@ -527,8 +537,14 @@
       },
       {
         "name": "666",
-        "balance": 0,
-        "history": [],
+        "balance": 45,
+        "history": [
+          {
+            "label": "df",
+            "amount": 45,
+            "time": "3/20/2019, 9:59 AM"
+          }
+        ],
         "accountNumber": "9084-397841",
         "⚙": "Account"
       },
@@ -585,6 +601,46 @@
         "name": "last try",
         "balance": 5000,
         "history": [
+          {
+            "label": "lfkjdslk",
+            "amount": 89798,
+            "time": "2019-03-18 13:38"
+          },
+          {
+            "label": "uhhuij",
+            "amount": 7777,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "fdsf",
+            "amount": 3333,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "eddd",
+            "amount": 2222,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "dddd",
+            "amount": 333,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "rrr",
+            "amount": 4444,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "hdsakj",
+            "amount": 666,
+            "time": "2019-03-18 13:36"
+          },
+          {
+            "label": "hej",
+            "amount": 8888,
+            "time": "2019-03-18 13:36"
+          },
           {
             "label": "",
             "amount": 5000,

@@ -24,6 +24,7 @@ class SpaHandler {
     $('article').html(content);
     // run updates...
     this.runUpdates(hash);
+    window.scrollTo(0,0);
   }
 
 
@@ -58,12 +59,15 @@ class SpaHandler {
     if(hash === 'transfermyaccount'){
       App.transferme.updateDisplay();
     }
+    if(hash === 'account-details'){
+      App.accountDetails.updateDisplay();
+    }
   
     //if(hash === 'my-accounts'){
       //App.autogiro.updateDisplay();
  // }
 
-  if(hash === 'Start'){
-    App.Start.updateDisplay();
+  if (hash === 'start'){
+    App.start.updateDisplay();
 }
 }}
