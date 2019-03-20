@@ -8,7 +8,7 @@ class App {
     // Instances that we need to be able to reach anywhere
     App.spaHandler = new SpaHandler();
     App.myAccounts = new MyAccounts();
-    App.autogiro = new Autogiro();
+   // App.autogiro = new Autogiro();
     App.simulate = new Simulate();
     App.transfer = new Transfer();
     App.accountDetails = new AccountDetails();
