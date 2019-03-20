@@ -1,0 +1,182 @@
+{
+  "data": {
+    "username": "Arzu",
+    "myFile": "users/Arzu-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 944824,
+        "history": [
+          {
+            "label": "dfg",
+            "amount": 345,
+            "time": "2019-03-20 09:31"
+          },
+          {
+            "label": "4567",
+            "amount": 345,
+            "time": "2019-03-20 09:31"
+          },
+          {
+            "label": "h",
+            "amount": 4567,
+            "time": "2019-03-20 09:29"
+          },
+          {
+            "label": "jjj",
+            "amount": 45678,
+            "time": "2019-03-20 09:29"
+          },
+          {
+            "label": "df",
+            "amount": 4567,
+            "time": "2019-03-20 09:29"
+          },
+          {
+            "label": "dfg",
+            "amount": 456,
+            "time": "2019-03-20 09:28"
+          },
+          {
+            "label": "fgh",
+            "amount": 4567,
+            "time": "2019-03-20 09:28"
+          },
+          {
+            "label": "gh",
+            "amount": 566,
+            "time": "2019-03-20 09:27"
+          },
+          {
+            "label": "ttt",
+            "amount": 457,
+            "time": "2019-03-20 09:27"
+          },
+          {
+            "label": "ggh",
+            "amount": 5567,
+            "time": "2019-03-20 09:27"
+          },
+          {
+            "label": "uiyjk",
+            "amount": 876876,
+            "time": "2019-03-20 09:27"
+          },
+          {
+            "label": "jk",
+            "amount": 878,
+            "time": "2019-03-20 09:26"
+          },
+          {
+            "label": "",
+            "amount": 66,
+            "time": "2019-03-20 09:26"
+          },
+          {
+            "label": "s",
+            "amount": 222,
+            "time": "2019-03-20 09:10"
+          },
+          {
+            "label": "h",
+            "amount": -333,
+            "time": "2019-03-20 09:09"
+          }
+        ],
+        "accountNumber": "5244-377303",
+        "⚙": "Account"
+      },
+      {
+        "name": "Sparkonto",
+        "balance": -944824,
+        "history": [
+          {
+            "label": "dfg",
+            "amount": -345,
+            "time": "2019-03-20 09:31"
+          },
+          {
+            "label": "4567",
+            "amount": -345,
+            "time": "2019-03-20 09:31"
+          },
+          {
+            "label": "h",
+            "amount": -4567,
+            "time": "2019-03-20 09:29"
+          },
+          {
+            "label": "jjj",
+            "amount": -45678,
+            "time": "2019-03-20 09:29"
+          },
+          {
+            "label": "df",
+            "amount": -4567,
+            "time": "2019-03-20 09:29"
+          },
+          {
+            "label": "dfg",
+            "amount": -456,
+            "time": "2019-03-20 09:28"
+          },
+          {
+            "label": "fgh",
+            "amount": -4567,
+            "time": "2019-03-20 09:28"
+          },
+          {
+            "label": "gh",
+            "amount": -566,
+            "time": "2019-03-20 09:27"
+          },
+          {
+            "label": "ttt",
+            "amount": -457,
+            "time": "2019-03-20 09:27"
+          },
+          {
+            "label": "ggh",
+            "amount": -5567,
+            "time": "2019-03-20 09:27"
+          },
+          {
+            "label": "uiyjk",
+            "amount": -876876,
+            "time": "2019-03-20 09:27"
+          },
+          {
+            "label": "jk",
+            "amount": -878,
+            "time": "2019-03-20 09:26"
+          },
+          {
+            "label": "",
+            "amount": -66,
+            "time": "2019-03-20 09:26"
+          },
+          {
+            "label": "s",
+            "amount": -222,
+            "time": "2019-03-20 09:10"
+          },
+          {
+            "label": "h",
+            "amount": 333,
+            "time": "2019-03-20 09:09"
+          }
+        ],
+        "accountNumber": "6528-137213",
+        "⚙": "Account"
+      },
+      {
+        "name": "Semester",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "7541-398786",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

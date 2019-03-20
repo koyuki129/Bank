@@ -5,13 +5,48 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": -29724.45,
+        "balance": -33225.45,
         "history": [
           {
+            "label": "df",
+            "amount": -45,
+            "time": "3/20/2019, 9:59 AM"
+          },
+          {
+            "label": "gh",
+            "amount": -3456,
+            "time": "3/20/2019, 9:58 AM"
+          },
+          {
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
+          },
+          {
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
+          },
+          {
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
+          },
+          {
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
+          },
+          {
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
+          },
+          {
             "label": "test",
             "amount": 150,
             "time": "3/14/2019, 3:48 PM"
-          },          
+          },
           {
             "label": "test",
             "amount": 150,
@@ -26,7 +61,7 @@
             "label": "test",
             "amount": 150,
             "time": "3/14/2019, 3:48 PM"
-          },                                     
+          },
           {
             "label": "test",
             "amount": 150,
@@ -143,9 +178,19 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 46715,
+        "balance": 35960,
         "history": [
           {
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
+          },
+          {
+            "label": "swish",
+            "amount": 0,
+            "time": "3/19/2019, 10:50 PM"
+          },
+          {
             "label": "jj",
             "amount": 0,
             "time": "2019-03-19 11:37"
@@ -192,33 +237,8 @@
           },
           {
             "label": "",
-            "amount": 100,
-            "time": "2019-03-18 14:46"
-          },
-          {
-            "label": "",
-            "amount": 100,
-            "time": "2019-03-18 14:45"
-          },
-          {
-            "label": "",
-            "amount": 100,
-            "time": "2019-03-18 14:45"
-          },
-          {
-            "label": "",
-            "amount": 100,
-            "time": "2019-03-18 14:45"
-          },
-          {
-            "label": "",
-            "amount": 5555,
-            "time": "2019-03-18 14:26"
-          },
-          {
-            "label": "",
-            "amount": 5000,
-            "time": "2019-03-18 13:38"
+            "amount": 200,
+            "time": "2019-03-18 12:52"
           },
           {
             "label": "",
@@ -274,7 +294,7 @@
             "label": "Från moster Olga",
             "amount": 2500,
             "time": "2019-03-14 03:38"
-          },          
+          },
           {
             "label": "Från moster Olga",
             "amount": 2500,
@@ -303,6 +323,26 @@
         "name": "Semester",
         "balance": -45972.75,
         "history": [
+          {
+            "label": "själv",
+            "amount": 0,
+            "time": "3/19/2019, 11:07 PM"
+          },
+          {
+            "label": "själv",
+            "amount": 0,
+            "time": "3/19/2019, 11:07 PM"
+          },
+          {
+            "label": "själv",
+            "amount": 0,
+            "time": "3/19/2019, 11:07 PM"
+          },
+          {
+            "label": "själv",
+            "amount": 0,
+            "time": "3/19/2019, 11:07 PM"
+          },
           {
             "label": "för mig",
             "amount": -55000,
@@ -497,8 +537,14 @@
       },
       {
         "name": "666",
-        "balance": 0,
-        "history": [],
+        "balance": 45,
+        "history": [
+          {
+            "label": "df",
+            "amount": 45,
+            "time": "3/20/2019, 9:59 AM"
+          }
+        ],
         "accountNumber": "9084-397841",
         "⚙": "Account"
       },
@@ -555,6 +601,46 @@
         "name": "last try",
         "balance": 5000,
         "history": [
+          {
+            "label": "lfkjdslk",
+            "amount": 89798,
+            "time": "2019-03-18 13:38"
+          },
+          {
+            "label": "uhhuij",
+            "amount": 7777,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "fdsf",
+            "amount": 3333,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "eddd",
+            "amount": 2222,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "dddd",
+            "amount": 333,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "rrr",
+            "amount": 4444,
+            "time": "2019-03-18 13:37"
+          },
+          {
+            "label": "hdsakj",
+            "amount": 666,
+            "time": "2019-03-18 13:36"
+          },
+          {
+            "label": "hej",
+            "amount": 8888,
+            "time": "2019-03-18 13:36"
+          },
           {
             "label": "",
             "amount": 5000,

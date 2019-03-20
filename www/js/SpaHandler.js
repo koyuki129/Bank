@@ -58,6 +58,9 @@ class SpaHandler {
     if(hash === 'transfermyaccount'){
       App.transferme.updateDisplay();
     }
+    if(hash === 'account-details'){
+      App.accountDetails.updateDisplay();
+    }
   
     //if(hash === 'my-accounts'){
       //App.autogiro.updateDisplay();

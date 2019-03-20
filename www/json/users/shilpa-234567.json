@@ -5,8 +5,73 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": -25000,
+        "balance": -25380,
         "history": [
+          {
+            "label": "sd",
+            "amount": -23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -234,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -234,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -234,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -234,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -234,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": -234,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "test",
+            "amount": -123,
+            "time": "3/20/2019, 10:23 AM"
+          },
           {
             "label": "swish",
             "amount": -25000,
@@ -18,15 +83,82 @@
       },
       {
         "name": "sparkonto",
-        "balance": 0,
-        "history": [],
+        "balance": -23456,
+        "history": [
+          {
+            "label": "sdf",
+            "amount": 12345,
+            "time": "3/20/2019, 10:28 AM"
+          },
+          {
+            "label": "sdf",
+            "amount": -12345,
+            "time": "3/20/2019, 10:28 AM"
+          },
+          {
+            "label": "för mig",
+            "amount": -23456,
+            "time": "3/20/2019, 10:28 AM"
+          }
+        ],
         "accountNumber": "4293-166149",
         "⚙": "Account"
       },
       {
         "name": "semester konto",
-        "balance": 0,
-        "history": [],
+        "balance": 23,
+        "history": [
+          {
+            "label": "sd",
+            "amount": 23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": 23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": 23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": 23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": 23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": 23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": 23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": 23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": 23,
+            "time": "3/20/2019, 10:26 AM"
+          },
+          {
+            "label": "sd",
+            "amount": 23,
+            "time": "3/20/2019, 10:26 AM"
+          }
+        ],
         "accountNumber": "5825-160050",
         "⚙": "Account"
       }
