@@ -37,7 +37,7 @@ class AccountDetails {
 
 
   updateDisplay() {
-    if (!App.user) { return; }
+    /*if (!App.user) { return; }
     $('#accountname').text(this.accountName);
     this.numberOfTransactions = 10;
     let html = '';
@@ -57,7 +57,7 @@ class AccountDetails {
 
     }
     // put the html in the DOM
-    $('.history tbody').html(html);
+    $('.history tbody').html(html);*/
   }
   
   toSwedishFormat(num){
