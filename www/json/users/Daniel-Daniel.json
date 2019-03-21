@@ -5,8 +5,53 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 500000000,
+        "balance": 499497440,
         "history": [
+          {
+            "label": "",
+            "amount": -433,
+            "time": "2019-03-20 08:13"
+          },
+          {
+            "label": "",
+            "amount": -44343,
+            "time": "2019-03-20 08:13"
+          },
+          {
+            "label": "",
+            "amount": -443242,
+            "time": "2019-03-20 08:13"
+          },
+          {
+            "label": "",
+            "amount": 0,
+            "time": "2019-03-20 08:13"
+          },
+          {
+            "label": "",
+            "amount": -3434,
+            "time": "2019-03-20 08:13"
+          },
+          {
+            "label": "est",
+            "amount": -77,
+            "time": "2019-03-20 08:12"
+          },
+          {
+            "label": "",
+            "amount": -5454,
+            "time": "2019-03-20 08:11"
+          },
+          {
+            "label": "tett",
+            "amount": -5454,
+            "time": "2019-03-20 08:11"
+          },
+          {
+            "label": "",
+            "amount": -123,
+            "time": "2019-03-20 08:11"
+          },
           {
             "label": "",
             "amount": 500000000,
@@ -18,8 +63,13 @@
       },
       {
         "name": "Spelkonto",
-        "balance": 50000000,
+        "balance": 50000077,
         "history": [
+          {
+            "label": "est",
+            "amount": 77,
+            "time": "2019-03-20 08:12"
+          },
           {
             "label": "",
             "amount": 50000000,
@@ -27,19 +77,6 @@
           }
         ],
         "accountNumber": "5460-320480",
-        "⚙": "Account"
-      },
-      {
-        "name": "Musikkonto",
-        "balance": 5000000,
-        "history": [
-          {
-            "label": "",
-            "amount": 5000000,
-            "time": "2019-03-19 10:11"
-          }
-        ],
-        "accountNumber": "5999-873374",
         "⚙": "Account"
       }
     ],

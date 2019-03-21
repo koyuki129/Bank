@@ -81,13 +81,6 @@
         "name": "",
         "balance": 0,
         "history": [],
-        "accountNumber": "3420-129554",
-        "⚙": "Account"
-      },
-      {
-        "name": "",
-        "balance": 0,
-        "history": [],
         "accountNumber": "8542-838211",
         "⚙": "Account"
       },
@@ -117,20 +110,6 @@
         "balance": 0,
         "history": [],
         "accountNumber": "2287-599046",
-        "⚙": "Account"
-      },
-      {
-        "name": "767890",
-        "balance": 0,
-        "history": [],
-        "accountNumber": "8312-179695",
-        "⚙": "Account"
-      },
-      {
-        "name": "",
-        "balance": 0,
-        "history": [],
-        "accountNumber": "5819-794164",
         "⚙": "Account"
       },
       {
@@ -341,13 +320,6 @@
         "balance": 0,
         "history": [],
         "accountNumber": "2394-065160",
-        "⚙": "Account"
-      },
-      {
-        "name": "",
-        "balance": 0,
-        "history": [],
-        "accountNumber": "1685-700255",
         "⚙": "Account"
       }
     ],

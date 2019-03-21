@@ -4,6 +4,7 @@ class MyAccounts {
     $(document).on('click', '.add-account-btn', e => this.addAccount(e));
     $(document).on('click', '.account-details', this.clickOnDetails);
     $(document).on('hidden.bs.modal', '#addAccountModal', e => this.emptyNewAccountNameField(e));
+    $(document).on('click', '.remove-account', this.removeAccount.bind(this));
   }
 
   clickOnDetails(){
@@ -20,6 +21,7 @@ class MyAccounts {
           <th scope="row"><a class="account-details" href="#account-details">${account.name}</a></th>
           <td>${account.accountNumber}</td>
           <td class="text-right">${this.toSwedishFormat(account.balance)}</td>
+          <td><button class="remove-account">Ta bort</button></td>
         
       </tr>`;
     }
@@ -45,6 +47,16 @@ class MyAccounts {
     this.updateDisplay();
   }
 
+  removeAccount(event){
+    let theClickedRemoveButton = $(event.target);
+    let accountDiv = theClickedRemoveButton.parent().parent();
+    let accountIndex = accountDiv.index();
+ 
+    App.user.accounts.splice(accountIndex, 1);
+    this.updateDisplay();
+    App.user.save();
+  }
+  
   emptyNewAccountNameField(){
     // empty the field when the modal closes
     $('#newAccountName').val('');
