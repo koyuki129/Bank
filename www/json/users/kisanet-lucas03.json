@@ -9,6 +9,41 @@
         "history": [
           {
             "label": "",
+            "amount": 0,
+            "time": "2019-03-19 21:24"
+          },
+          {
+            "label": "",
+            "amount": 0,
+            "time": "2019-03-19 21:09"
+          },
+          {
+            "label": "",
+            "amount": 0,
+            "time": "2019-03-19 20:33"
+          },
+          {
+            "label": "",
+            "amount": 0,
+            "time": "2019-03-19 20:33"
+          },
+          {
+            "label": "",
+            "amount": 0,
+            "time": "2019-03-19 19:58"
+          },
+          {
+            "label": "",
+            "amount": 0,
+            "time": "2019-03-19 18:16"
+          },
+          {
+            "label": "",
+            "amount": 0,
+            "time": "2019-03-19 18:16"
+          },
+          {
+            "label": "",
             "amount": -8,
             "time": "2019-03-19 12:26"
           },
@@ -33,6 +68,258 @@
         "balance": 0,
         "history": [],
         "accountNumber": "6733-709541",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1799-063415",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8542-838211",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6680-944951",
+        "⚙": "Account"
+      },
+      {
+        "name": "767890",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "9180-044373",
+        "⚙": "Account"
+      },
+      {
+        "name": "767890",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "7652-645532",
+        "⚙": "Account"
+      },
+      {
+        "name": "767890",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "2287-599046",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1747-506744",
+        "⚙": "Account"
+      },
+      {
+        "name": "767890",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5547-712569",
+        "⚙": "Account"
+      },
+      {
+        "name": "767890",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8694-203556",
+        "⚙": "Account"
+      },
+      {
+        "name": "2287-599046",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6361-665452",
+        "⚙": "Account"
+      },
+      {
+        "name": "2287-599046",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4159-517828",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5507-461436",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4491-317365",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8291-141526",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "9784-128875",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1578-774984",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1410-834213",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "9878-029367",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8574-127404",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1024-000831",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8076-017495",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5436-393872",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "7939-356952",
+        "⚙": "Account"
+      },
+      {
+        "name": "lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5756-918809",
+        "⚙": "Account"
+      },
+      {
+        "name": "lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1121-769448",
+        "⚙": "Account"
+      },
+      {
+        "name": "lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "9662-362916",
+        "⚙": "Account"
+      },
+      {
+        "name": "lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "2717-577306",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "3113-169088",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4699-885559",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6898-692838",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6538-672187",
+        "⚙": "Account"
+      },
+      {
+        "name": "6898-692838",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "2076-674549",
+        "⚙": "Account"
+      },
+      {
+        "name": "6898-692838",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8741-669119",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1195-206614",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5801-110268",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "2394-065160",
         "⚙": "Account"
       }
     ],
