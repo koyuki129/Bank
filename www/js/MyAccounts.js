@@ -5,6 +5,8 @@ class MyAccounts {
     $(document).on('click', '.account-details', this.clickOnDetails);
     $(document).on('hidden.bs.modal', '#addAccountModal', e => this.emptyNewAccountNameField(e));
     $(document).on('click', '.remove-account', this.removeAccount.bind(this));
+    $(document).on('click', '.change-account-btn', this.changeAccountName.bind(this)); 
+    $(document).on('click', '.changers', this.changeAccountClick.bind(this)); 
   }
 
   clickOnDetails(){
@@ -22,7 +24,9 @@ class MyAccounts {
           <td>${account.accountNumber}</td>
           <td class="text-right">${this.toSwedishFormat(account.balance)}</td>
           <td><button class="remove-account">Ta bort</button></td>
-        
+          <td><button type="button" class="changers btn btn-primary" data-toggle="modal" data-target="#changeNameModal">
+            Ändra Kontonamn
+          </button></td>
       </tr>`;
     }
     // put the html in the DOM
@@ -56,7 +60,20 @@ class MyAccounts {
     this.updateDisplay();
     App.user.save();
   }
-  
+
+  changeAccountName(){
+    App.user.accounts[this.accChangeIndex].name = $("#changeName").val();
+    this.updateDisplay();
+    App.user.save();
+  }
+
+  changeAccountClick(event){
+    let theClickedRemoveButton = $(event.target);
+    let accountDiv = theClickedRemoveButton.parent().parent();
+    let accountIndex = accountDiv.index();
+    this.accChangeIndex = accountIndex;
+    $("#changeName").val('');
+  }
   emptyNewAccountNameField(){
     // empty the field when the modal closes
     $('#newAccountName').val('');
