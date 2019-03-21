@@ -8,7 +8,6 @@ class Start {
         let loggedIn = App.user;
         $('.only-if-logged-in')[loggedIn ? 'show' : 'hide']();
         $('.only-if-not-logged-in')[loggedIn ? 'hide' : 'show']();
-        //console.log("loggedIn", loggedIn)
         if (!loggedIn) { return; }
 
         let numberOfTransactions = 5;
