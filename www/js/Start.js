@@ -31,16 +31,27 @@ class Start {
         );
         // console.log(transactionsByTime);
 
+
         for (let i = 0; i < numberOfTransactions; i++) {
             let history = transactionsByTime[i];
             html += `<tr>
               <th scope="row">${history.label}</th>
               <td>${history.amount}</td>
-              <td class="text-right">${history.time}</td>
+              <td class="text-right">${this.formatTime(history.time)}</td>
           </tr>`;
         }
 
         // put the html in the DOM
         $('.start-history tbody').html(html);
     }
+    formatTime(aTime){
+        return new Intl.DateTimeFormat(
+          'se-SV', {
+            year: 'numeric',
+            month: 'numeric',
+            day: 'numeric',
+            hour: 'numeric',
+            minute: 'numeric'
+        }).format(new Date(aTime));
+      }
 }
