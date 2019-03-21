@@ -5,8 +5,28 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 39700,
+        "balance": 39076,
         "history": [
+          {
+            "label": "gg",
+            "amount": 800,
+            "time": "2019-03-20 11:29"
+          },
+          {
+            "label": "Egna konton",
+            "amount": -600,
+            "time": "2019-03-20 11:29"
+          },
+          {
+            "label": "hhhhh",
+            "amount": -890,
+            "time": "2019-03-20 11:27"
+          },
+          {
+            "label": "hi",
+            "amount": 66,
+            "time": "2019-03-20 11:26"
+          },
           {
             "label": "Semester",
             "amount": -40000,
@@ -28,8 +48,23 @@
       },
       {
         "name": "Semester",
-        "balance": 40000,
+        "balance": 40690,
         "history": [
+          {
+            "label": "gg",
+            "amount": -800,
+            "time": "2019-03-20 11:29"
+          },
+          {
+            "label": "Egna konton",
+            "amount": 600,
+            "time": "2019-03-20 11:29"
+          },
+          {
+            "label": "hhhhh",
+            "amount": 890,
+            "time": "2019-03-20 11:27"
+          },
           {
             "label": "Semester",
             "amount": 40000,

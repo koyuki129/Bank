@@ -1,0 +1,30 @@
+{
+  "data": {
+    "username": "Karina",
+    "myFile": "users/Karina-Ballong",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8041-090810",
+        "⚙": "Account"
+      },
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "3489-676639",
+        "⚙": "Account"
+      },
+      {
+        "name": "aktiekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1798-098758",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
