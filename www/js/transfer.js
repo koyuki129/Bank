@@ -14,6 +14,8 @@ class Transfer {
     // put the html in the DOM
     $(this.form).find('#fromAccountNumber').html(html);
     //   $(this.form).find('#toAccountNumber').html(html);
+    $.datepicker.setDefaults($.datepicker.regional["sv"]);
+$('#datepicker').datepicker();  
   }
 
   onsubmit(e) {
