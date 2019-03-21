@@ -34,7 +34,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Lägg till konto</h5> 
+        <h5 class="modal-title">Lägg till konto</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -51,9 +51,34 @@
         <button type="button" class="add-account-btn btn btn-primary" data-dismiss="modal">Lägg till</button>
         <button type="button" class="add-account-btn btn btn-primary" data-dismiss="modal">Ta bort</button>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="changeNameModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Ändra namn på konto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="changeName"><small>Kontonamn</small></label>
+            <input type="text" class="form-control" id="changeName" placeholder="Ange ett valfritt kontonamn">
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Avbryt</button>
+          <button type="button" class="change-account-btn btn btn-primary" data-dismiss="modal">Ändra</button>
+        </div>
       </div>
-    
-      
+
+
+    </div>
   </div>
 </div>
 
@@ -66,11 +91,6 @@
   <form class="autogiro-form">
     <label for="label"><small>Meddelande</small></label>
     <input type="text" class="form-control" id="label" placeholder="Autogiro betalning">
-  </div>
-  <button type="submit" class="btn btn-primary float-right mt-3">Spara</button>
-</form>
-
-
-<p class="mt-3"><b>Tips:</b></p>
-<p>Nästa steg vore att göra kontona klickbara, så att man kan se kontoutdrag/historik.</p>
-<p>En annan sak som saknas är att kunna ta bort konton...</p>
+    </div>
+    <button type="submit" class="btn btn-primary float-right mt-3">Spara</button>
+  </form>
