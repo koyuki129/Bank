@@ -4,7 +4,7 @@ class SpaHandler {
     // on initial page load
     this.onchange();
     // for every change "soft page load"
-    window.onhashchange =  e => this.onchange(e);
+    window.onhashchange = e => this.onchange(e);
   }
 
   async onchange() {
@@ -24,7 +24,7 @@ class SpaHandler {
     $('article').html(content);
     // run updates...
     this.runUpdates(hash);
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
   }
 
 
@@ -41,33 +41,34 @@ class SpaHandler {
     return !notAllowed;
   }
 
-  runUpdates(hash){
+  runUpdates(hash) {
     // update things depending on what "page"/hash
     // the user navigates to
-    if(hash === 'my-accounts'){
+    if (hash === 'my-accounts') {
       App.myAccounts.updateDisplay();
     }
-    if(hash === 'simulate'){
+    if (hash === 'simulate') {
       App.simulate.updateDisplay();
     }
-    if(hash === 'account-details'){
+    if (hash === 'account-details') {
       App.accountDetails.updateDisplay();
     }
-    if(hash === 'transfer'){
+    if (hash === 'transfer') {
       App.transfer.updateDisplay();
     }
-    if(hash === 'transfermyaccount'){
+    if (hash === 'transfermyaccount') {
       App.transferme.updateDisplay();
     }
-    if(hash === 'account-details'){
+    if (hash === 'account-details') {
       App.accountDetails.updateDisplay();
     }
-  
-    //if(hash === 'my-accounts'){
-      //App.autogiro.updateDisplay();
- // }
 
-  if (hash === 'start'){
-    App.start.updateDisplay();
+    //if(hash === 'my-accounts'){
+    //App.autogiro.updateDisplay();
+    // }
+
+    if (hash === 'start') {
+      App.start.updateDisplay();
+    }
+  }
 }
-}}
