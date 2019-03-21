@@ -88,4 +88,4 @@ class RegisterUser {
     App.login.login();
   }
 
-}
+} 

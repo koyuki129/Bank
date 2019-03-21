@@ -5,8 +5,48 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 39076,
+        "balance": 29950,
         "history": [
+          {
+            "label": "hgfd",
+            "amount": -50,
+            "time": "2019-03-21 11:40"
+          },
+          {
+            "label": "",
+            "amount": -77,
+            "time": "2019-03-21 11:24"
+          },
+          {
+            "label": "",
+            "amount": -9999,
+            "time": "2019-03-21 11:17"
+          },
+          {
+            "label": "",
+            "amount": -3333,
+            "time": "2019-03-21 10:52"
+          },
+          {
+            "label": "",
+            "amount": 3333,
+            "time": "2019-03-21 10:52"
+          },
+          {
+            "label": "",
+            "amount": 1000,
+            "time": "2019-03-21 10:07"
+          },
+          {
+            "label": "",
+            "amount": -600,
+            "time": "2019-03-21 09:23"
+          },
+          {
+            "label": "",
+            "amount": 600,
+            "time": "2019-03-21 09:23"
+          },
           {
             "label": "gg",
             "amount": 800,

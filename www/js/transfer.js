@@ -4,7 +4,6 @@ class Transfer {
     this.form = '.transfer-form';
     $(document).on('submit', this.form, e => this.onsubmit(e));
   }
-
   updateDisplay() {
     if (!App.user) { return; }
     let html = '';
@@ -15,11 +14,6 @@ class Transfer {
     // put the html in the DOM
     $(this.form).find('#fromAccountNumber').html(html);
     //   $(this.form).find('#toAccountNumber').html(html);
-
-    //Calender coden
-    $.datepicker.setDefaults($.datepicker.regional["sv"]);
-    $('#datepicker').datepicker();
-
   }
 
   onsubmit(e) {
@@ -32,22 +26,41 @@ class Transfer {
     f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
     // Get the correct account
     let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
-    // Deposit or withdraw
-    accountFrom.withdraw(f.label, f.sum);
-    //   accountTo.deposit(f.label, f.sum);
-    // account
-    // Save the user data
-    App.user.save();
-    // Goto the my-accounts page
-    location.hash = "#my-accounts";
+    this.checkForNegativeNumber();
+
+    this.displayErrors();
+    if (Object.keys(this.formdata.errors).length === 0) {
+
+      // Deposit or withdraw
+      accountFrom.withdraw(f.label, f.sum);
+      //   accountTo.deposit(f.label, f.sum);
+      // account
+      // Save the user data
+      App.user.save();
+      // Goto the my-accounts page
+      location.hash = "#my-accounts";
+    }
   }
 
   collectFormdata() {
-    let formdata = {};
+    let formdata = { errors: {} };
     $(this.form).find('input, select').each(function () {
       formdata[this.id] = $(this).val();
     });
     this.formdata = formdata;
   }
+  checkForNegativeNumber() {
+    let f = this.formdata;
+    if (f.sum < 0) {
+      f.errors.sum = 'Du får inte skriva ett negativt nummer';
+    }
+  }
 
+  displayErrors() {
+    let e = this.formdata.errors;
+    $(this.form + ' .error').empty();
+    for (let key in e) {
+      $(this.form + ' #' + key).siblings('.error').text(e[key]);
+    }
+  }
 }
