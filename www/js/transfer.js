@@ -54,6 +54,9 @@ class Transfer {
     if (f.sum < 0) {
       f.errors.sum = 'Du får inte skriva ett negativt nummer';
     }
+    if (f.amount.sum.length < 0) {
+      f.errors.sum = 'Du har inte tillräckligt med pengar';
+    }
   }
 
   displayErrors() {
