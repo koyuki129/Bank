@@ -31,7 +31,9 @@ class Start {
                 ((transactionA.time < transactionB.time) ? 1 : 0)
         );
         // console.log(transactionsByTime);
-
+        if (transactionsByTime.length < numberOfTransactions) {
+            numberOfTransactions = transactionsByTime.length;
+        }
 
         for (let i = 0; i < numberOfTransactions; i++) {
             let history = transactionsByTime[i];
@@ -63,10 +65,9 @@ class Start {
         }
         // put the html in the DOM
         $('.accounts-start tbody').html(html);
-        console.log($('.accounts-start tbody'));
-        console.log(html);
-        
-        
+
+
+
     }
 
 
