@@ -27,6 +27,7 @@ class Transfer {
     // Get the correct account
     let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
     this.checkForNegativeNumber();
+    this.checkForAmount();
 
     this.displayErrors();
     if (Object.keys(this.formdata.errors).length === 0) {
@@ -55,7 +56,13 @@ class Transfer {
       f.errors.sum = 'Du får inte skriva ett negativt nummer';
     }
   }
-
+  checkForAmount() {
+    let f = this.formdata;
+    let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
+    if (f.sum > accountFrom.balance) {
+      f.errors.sum = 'Du har inte tillräckligt med pengar';
+    }
+  }
   displayErrors() {
     let e = this.formdata.errors;
     $(this.form + ' .error').empty();
