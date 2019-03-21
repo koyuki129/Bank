@@ -1,6 +1,6 @@
 class Start {
 
-    updateDisplay(){
+    updateDisplay() {
         this.showLastTransactions();
     }
 
@@ -8,18 +8,18 @@ class Start {
         let loggedIn = App.user;
         $('.only-if-logged-in')[loggedIn ? 'show' : 'hide']();
         $('.only-if-not-logged-in')[loggedIn ? 'hide' : 'show']();
-        console.log("loggedIn", loggedIn)
-        if(!loggedIn){ return; }
+        if (!loggedIn) { return; }
 
         let numberOfTransactions = 5;
-        let html = ''; 
+        let html = '';
 
         // create an empty array
         let transactionsByTime = new Array();
         // collect all transactions in the new array
         for (let account of App.user.accounts) {
             for (let h of account.history) {
-                transactionsByTime.push(h);
+                let newH = Object.assign(h, { accountName: account.name });
+                transactionsByTime.push(newH);
             }
         }
         // order the transactions by time attribute
@@ -31,16 +31,28 @@ class Start {
         );
         // console.log(transactionsByTime);
 
+
         for (let i = 0; i < numberOfTransactions; i++) {
             let history = transactionsByTime[i];
             html += `<tr>
+            <th scope="row">${history.accountName}</th>
               <th scope="row">${history.label}</th>
               <td>${history.amount}</td>
-              <td class="text-right">${history.time}</td>
+              <td class="text-right">${this.formatTime(history.time)}</td>
           </tr>`;
         }
 
         // put the html in the DOM
         $('.start-history tbody').html(html);
+    }
+    formatTime(aTime) {
+        return new Intl.DateTimeFormat(
+            'se-SV', {
+                year: 'numeric',
+                month: 'numeric',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric'
+            }).format(new Date(aTime));
     }
 }
