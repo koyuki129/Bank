@@ -1,6 +1,6 @@
 class Start {
 
-    updateDisplay(){
+    updateDisplay() {
         this.showLastTransactions();
     }
 
@@ -8,11 +8,11 @@ class Start {
         let loggedIn = App.user;
         $('.only-if-logged-in')[loggedIn ? 'show' : 'hide']();
         $('.only-if-not-logged-in')[loggedIn ? 'hide' : 'show']();
-        console.log("loggedIn", loggedIn)
-        if(!loggedIn){ return; }
+        //console.log("loggedIn", loggedIn)
+        if (!loggedIn) { return; }
 
         let numberOfTransactions = 5;
-        let html = ''; 
+        let html = '';
 
         // create an empty array
         let transactionsByTime = new Array();
