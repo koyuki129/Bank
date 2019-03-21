@@ -24,12 +24,8 @@ class SpaHandler {
     $('article').html(content);
     // run updates...
     this.runUpdates(hash);
-<<<<<<< Updated upstream
     window.scrollTo(0,0);
   }
-=======
-      }
->>>>>>> Stashed changes
 
 
   allowed(hash) {

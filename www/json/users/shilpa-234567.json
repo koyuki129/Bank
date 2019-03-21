@@ -5,8 +5,33 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": -24780,
+        "balance": -28692,
         "history": [
+          {
+            "label": "tyui",
+            "amount": -456,
+            "time": "3/21/2019, 10:45 AM"
+          },
+          {
+            "label": "",
+            "amount": 0,
+            "time": "3/21/2019, 10:44 AM"
+          },
+          {
+            "label": "take",
+            "amount": -3456,
+            "time": "3/21/2019, 10:37 AM"
+          },
+          {
+            "label": "",
+            "amount": 0,
+            "time": "3/21/2019, 10:36 AM"
+          },
+          {
+            "label": "",
+            "amount": 0,
+            "time": "3/21/2019, 10:36 AM"
+          },
           {
             "label": "tack",
             "amount": 600,
