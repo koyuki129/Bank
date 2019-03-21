@@ -41,6 +41,6 @@ class Autogiro extends MyAccounts{
       formdata[this.id] = $(this).val();
     });
     this.formdata = formdata;
-  }
 
+}
 }
