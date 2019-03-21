@@ -63,6 +63,10 @@ class Start {
         }
         // put the html in the DOM
         $('.accounts-start tbody').html(html);
+        console.log($('.accounts-start tbody'));
+        console.log(html);
+        
+        
     }
 
 
