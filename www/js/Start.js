@@ -2,6 +2,7 @@ class Start {
 
     updateDisplay() {
         this.showLastTransactions();
+        this.updateAccountDisplay();
     }
 
     async showLastTransactions() {
@@ -45,6 +46,26 @@ class Start {
         // put the html in the DOM
         $('.start-history tbody').html(html);
     }
+
+    updateAccountDisplay() {
+        if (!App.user) { return; }
+        let html = '';
+        // loop through the logged in users accounts and create html
+        for (let account of App.user.accounts) {
+            html += `<tr>
+            
+              <th scope="row">${account.name}</th>
+              <td>${account.accountNumber}</td>
+              <td class="text-right">${this.toSwedishFormat(account.balance)}</td>
+              
+            
+          </tr>`;
+        }
+        // put the html in the DOM
+        $('.accounts-start tbody').html(html);
+    }
+
+
     formatTime(aTime) {
         return new Intl.DateTimeFormat(
             'se-SV', {
@@ -55,4 +76,13 @@ class Start {
                 minute: 'numeric'
             }).format(new Date(aTime));
     }
+
+    toSwedishFormat(num) {
+        return new Intl.NumberFormat('sv', {
+            style: 'currency',
+            currency: 'SEK',
+        }).format(num);
+    }
+
+
 }
