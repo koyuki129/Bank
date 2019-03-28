@@ -11,3 +11,10 @@ app.use(express.static('www'));
 app.use(flexjson);
 // Start the web server on port 3000
 app.listen(3000,() => console.log('Listening on port 3000'));
+
+
+// Create the folder json/users and json/usernames if they don't exist'
+const fs = require('fs');
+if(!fs.existsSync('./www/json')){ fs.mkdirSync('./www/json')}
+if(!fs.existsSync('./www/json/usernames')){ fs.mkdirSync('./www/json/usernames')}
+if(!fs.existsSync('./www/json/users')){ fs.mkdirSync('./www/json/users')}
