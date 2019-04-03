@@ -18,6 +18,7 @@ class Transfer {
 $('#datepicker').datepicker();  
   }
 
+
   onsubmit(e) {
     // Don't send the form
     e.preventDefault();
@@ -31,45 +32,86 @@ $('#datepicker').datepicker();
     this.checkForNegativeNumber();
     this.checkForAmount();
 
+    this. checkTransferLimit();
+
     this.displayErrors();
-    if (Object.keys(this.formdata.errors).length === 0) {
+      if (Object.keys(this.formdata.errors).length === 0) {
+        // Deposit or withdraw
+        accountFrom.withdraw(f.label, f.sum,  new Date($("#datepicker").val()));
+        //   accountTo.deposit(f.label, f.sum);
+        // account
+        // Save the user data
+        App.user.save();
+        // Goto the my-accounts page
+        location.hash = "#my-accounts";
+      }
+    }
 
-      // Deposit or withdraw
-      accountFrom.withdraw(f.label, f.sum);
-      //   accountTo.deposit(f.label, f.sum);
-      // account
-      // Save the user data
-      App.user.save();
-      // Goto the my-accounts page
-      location.hash = "#my-accounts";
+    collectFormdata() {
+      let formdata = { errors: {} };
+      $(this.form).find('input, select').each(function () {
+        formdata[this.id] = $(this).val();
+      });
+      this.formdata = formdata;
+    }
+    checkForNegativeNumber() {
+      let f = this.formdata;
+      if (f.sum < 0) {
+        f.errors.sum = 'Du får inte skriva ett negativt nummer';
+      }
+    }
+    checkForAmount() {
+      let f = this.formdata;
+      let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
+      if (f.sum > accountFrom.balance) {
+        f.errors.sum = 'Du har inte tillräckligt med pengar';
+      }
+    }
+
+    checkTransferLimit() {
+      let f = this.formdata;
+      let accountFrom = App.user.accounts.filter(account => 
+        account.accountNumber === f.fromAccountNumber)[0];
+  
+      var oneWeekAgo = new Date();
+      oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+  
+      let allTransactions = accountFrom.history
+      .filter(history => history.amount < 0)
+      .filter(datefilter => new Date(datefilter.time) >= oneWeekAgo); 
+   
+      let last7DaysSum = (this.BalanceSum(allTransactions, 'amount') * -1);
+      let currentTransactionLimit = 30000 - last7DaysSum;
+      if(f.sum > currentTransactionLimit){
+        f.errors.sum = 'Du kan inte överföra över 30000 under de senaste 7 dagarna';
+      } 
+  
+    
+      /*if (last7DaysSumWithCurrent > 30000) {
+        f.errors.sum = 'Du kan inte överföra över 30000 under de senaste 7 dagarna';
+      }*/
+    }
+  
+    BalanceSum (items, prop){
+      return items.reduce( function(a, b){
+          return a + b[prop];
+      }, 0);
+    }
+
+    displayErrors() {
+      let e = this.formdata.errors;
+      $(this.form + ' .error').empty();
+      for (let key in e) {
+        $(this.form + ' #' + key).siblings('.error').text(e[key]);
+      }
     }
   }
 
-  collectFormdata() {
-    let formdata = { errors: {} };
-    $(this.form).find('input, select').each(function () {
-      formdata[this.id] = $(this).val();
-    });
-    this.formdata = formdata;
-  }
-  checkForNegativeNumber() {
-    let f = this.formdata;
-    if (f.sum < 0) {
-      f.errors.sum = 'Du får inte skriva ett negativt nummer';
-    }
-  }
-  checkForAmount() {
-    let f = this.formdata;
-    let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
-    if (f.sum > accountFrom.balance) {
-      f.errors.sum = 'Du har inte tillräckligt med pengar';
-    }
-  }
-  displayErrors() {
-    let e = this.formdata.errors;
-    $(this.form + ' .error').empty();
-    for (let key in e) {
-      $(this.form + ' #' + key).siblings('.error').text(e[key]);
-    }
-  }
-}
+
+
+
+
+
+
+
+

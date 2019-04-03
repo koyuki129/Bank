@@ -6,6 +6,7 @@ class User {
     this.accounts = [];
     // add one account initially
     this.addAccount('Lönekonto');
+    
   }
 
   addAccount(name) {
