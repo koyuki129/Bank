@@ -1,8 +1,8 @@
 .nav-link:not(.active) {
-  color: rgb(0, 0, 0);
+  color:rgb(25, 25, 112);
 }
 header { 
-  background-color: grey
+  background-color: grey;
 
 }
 title {
