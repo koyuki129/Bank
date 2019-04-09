@@ -23,14 +23,17 @@ class Transfer {
   bankTypeChanged(e) {
     const t = e.target.value;
     const fldAcc = document.querySelector(this.form + ' #toAccountNumber');
-    fldAcc.placeholder = e.target.parentNode.textContent.trim();
     if (t === "bg") {
+      fldAcc.placeholder = "NNN-NNNN";
       fldAcc.pattern = "\\d{3}-\\d{4}";
     } else if (t === "pg") {
+      fldAcc.placeholder = "NNNNNN-N";
       fldAcc.pattern = "\\d{6}-\\d{1}";
     } else if (t === "ta") {
+      fldAcc.placeholder = "Ange kontonummer";
       fldAcc.pattern = ".+";
     } else {
+      fldAcc.placeholder = "";
       console.error("Unexpected bankt account type:", t);
     }
   }
