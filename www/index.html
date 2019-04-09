@@ -11,9 +11,21 @@
 </head>
 
 <body>
-  <header class="p-3 bg-primary text-light">
+
+
+  <header class="p-3 bg-info text-light">
     <h2 class="d-inline-block">Sweden Bank AB</h2>
+    <button type="button" class="btn btn-warning">
+          
+    <li class="float-right only-if-logged-in p-2 mt-4"></li>
+    <a class="nav-link" href="#login">Logga in</a>
+  </li>
+</button>
     <small class="float-right only-if-logged-in">Inloggad som <span class="username"></span></small>
+
+
+
+
   </header>
   <main class="container-fluid mt-4">
     <div class="row">
@@ -53,7 +65,7 @@
       <article class="col-7 col-sm-8"></article>
     </div>
   </main>
-  <footer class="text-center bg-primary text-light p-2 mt-4">© 2019 NodeHill</footer>
+  <footer class="text-center bg-info text-light p-2 mt-4">© 2019 NodeHill</footer>
   <!-- Libraries -->
   <script src="/jsonflex.js"></script>
   <script src="/js/libs/jquery.js"></script>
