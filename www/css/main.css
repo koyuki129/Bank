@@ -1,8 +1,11 @@
 .nav-link:not(.active) {
-  color:rgb(25, 25, 112);
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 header { 
   background-color: grey;
+  font-family: "Times New Roman", Times, serif;
 
 }
 title {
@@ -13,6 +16,9 @@ title {
 
 .nav-link.active {
   font-weight: bold;
+  color: rgb(250, 213, 3);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 
 .only-if-logged-in, .only-if-not-logged-in {
@@ -21,14 +27,19 @@ title {
 
 p {
   margin-top: -0.7rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
 }
 
 h3, h4, h5 {
   margin-bottom: 1rem;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
 
 }
 
 table {
-  border-bottom: 1px solid #ddd;
+  background-color: lightblue;
+  border-bottom: 1px solid #ffff;
 }
