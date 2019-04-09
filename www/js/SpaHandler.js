@@ -63,9 +63,9 @@ class SpaHandler {
       App.accountDetails.updateDisplay();
     }
 
-    //if(hash === 'my-accounts'){
-    //App.autogiro.updateDisplay();
-    // }
+    if(hash === 'my-accounts'){
+    App.autogiro.updateDisplay();
+     }
 
     if (hash === 'start') {
       App.start.updateDisplay();
