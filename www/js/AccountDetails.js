@@ -30,6 +30,7 @@ class AccountDetails {
         for (let i = 0; i < this.numberOfTransactions ; i++) {
           let history = account.history[i];
           html += `<tr>
+              <th scope="row">${history.accountName}</th>
               <th scope="row">${history.label}</th>
               <td>${history.amount}</td>
               <td class="text-right">${this.formatTime(history.time)}</td>
