@@ -33,7 +33,6 @@ class AccountDetails {
               <th scope="row">${history.accountName}</th>
               <th scope="row">${history.label}</th>
               <td>${history.amount}</td>
-              <th scope="row">${history.accountName}</th>
               <td class="text-right">${this.formatTime(history.time)}</td>
           </tr>`;
         }
