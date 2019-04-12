@@ -14,61 +14,66 @@
 
 
   <header class="p-3 bg-info text-light">
-    <h2 class="d-inline-block">Sweden Bank AB  <img src="bank.png" width="40" height="35"></h2>
-
+    <h2 class="d-inline-block">Sweden Bank AB <img src="bank.png" width="40" height="35"></h2>
+    <button class="btn float-right ml-3 homemade-toggler d-md-none">☰</button>
     <button type="button" class="btn btn-warning float-right only-if-not-logged-in">
-    <small class="float-right only-if-not-logged-in"></li>
-    <a class="nav-link" href="#login">Logga in</a>
-    </small>
+      <small class="float-right only-if-not-logged-in"></li>
+        <a class="nav-link" href="#login">Logga in</a>
+      </small>
 
-</button>
-    <large class="float-right only-if-logged-in"> <span class="username"></span></large>
-   
+    </button>
+    <small class="float-right only-if-logged-in">Inloggad som <span class="username"></span></small>
+ 
 
 
 
   </header>
   <main class="container-fluid mt-4">
     <div class="row">
-      <aside class="col-4 col-sm-3">
+      <aside class="col-md-4">
         <nav>
           <ul class="nav flex-column">
             <li class="nav-item only-if-logged-in">
-                <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link" href="#start">Start</a></button>
+              <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link"
+                  href="#start">Start</a></button>
             </li>
             <li class="nav-item only-if-not-logged-in">
-                <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link" href="#login">Logga in</a></button>
+              <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link" href="#login">Logga
+                  in</a></button>
             </li>
             <li class="nav-item only-if-not-logged-in">
-                <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link" href="#register">Bli kund</a></button>
+              <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link" href="#register">Bli
+                  kund</a></button>
             </li>
             <li class="nav-item only-if-logged-in">
-                <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link" href="#my-accounts">Mina konton</a></button>
-            </li>
-            </li>
-            <li class="nav-item only-if-logged-in">
-                <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link" href="#transfer">Överföringar andra konton</a></button>
+              <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link" href="#my-accounts">Mina
+                  konton</a></button>
             </li>
             </li>
             <li class="nav-item only-if-logged-in">
-                <button type="button" class="btn btn-info btn-sm btn-block"> <a class="nav-link" href="#transfermyaccount">Överföringar mina konton</a></button>
-              </li>
-          
-              
+              <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link"
+                  href="#transfer">Överföringar andra konton</a></button>
+            </li>
+            </li>
             <li class="nav-item only-if-logged-in">
-                <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link" href="#simulate">...simulera...</a></button>
+              <button type="button" class="btn btn-info btn-sm btn-block"> <a class="nav-link"
+                  href="#transfermyaccount">Överföringar mina konton</a></button>
+            </li>
+            <li class="nav-item only-if-logged-in">
+              <button type="button" class="btn btn-info btn-sm btn-block"><a class="nav-link"
+                  href="#simulate">...simulera...</a></button>
 
             </li>
-            
+
             <li class="nav-item only-if-logged-in">
-                
-                <button type="button" class="btn btn-info btn-sm btn-block">
+
+              <button type="button" class="btn btn-info btn-sm btn-block">
                 <a class="nav-link" href="#logout">Logga ut</a></button>
             </li>
           </ul>
         </nav>
       </aside>
-      <article class="col-7 col-sm-8"></article>
+      <article class="col-12 col-md-8"></article>
     </div>
   </main>
   <footer class="text-center bg-info text-light p-2 mt-4">© 2019 Swedbank</footer>
