@@ -27,15 +27,18 @@ class Transferme {
     f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
     // Get the correct account
     let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
-    accountFrom.withdraw(f.label, f.sum);
+    
     let accountTo = App.user.accounts.filter(account => account.accountNumber === f.toAccountNumber)[0];
-    accountTo.deposit(f.label, f.sum);
+    
 
     this.checkForNegativeNumber();
     this.checkForAmount();
+    this.checkForAccountNumber();
 
     this.displayErrors();
     if (Object.keys(this.formdata.errors).length === 0) {
+      accountFrom.withdraw(f.label, f.sum);
+      accountTo.deposit(f.label, f.sum);
       // Deposit or withdraw
       // Save the user data
       App.user.save();
@@ -56,6 +59,15 @@ class Transferme {
       f.errors.sum = 'Du får inte skriva ett negativt nummer';
     }
   }
+
+  checkForAccountNumber(){
+    let f = this.formdata
+    let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
+    let accountTo = App.user.accounts.filter(account => account.accountNumber === f.toAccountNumber)[0];
+    if (accountFrom === accountTo) {
+      f.errors.sum = 'Du kan inte överföra pengar till samma konto du vill skicka det från';
+  }
+}
   checkForAmount() {
     let f = this.formdata;
     let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
