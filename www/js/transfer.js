@@ -15,7 +15,6 @@ class Transfer {
     $(this.form).find('#fromAccountNumber').html(html);
     $(this.form).find('#accountTypes').change(this.bankTypeChanged.bind(this));
     $(this.form).on("input", "input", (e) => e.target.setCustomValidity(""));
-    //   $(this.form).find('#toAccountNumber').html(html);
     
   }
 

@@ -1,33 +1,27 @@
 class Account {
 
-  constructor(name) {
+  constructor(name){
     this.name = name;
     this.balance = 0;
     this.history = [];
     this.accountNumber = this.createAccountNumber()
   }
 
-  createAccountNumber() {
+  createAccountNumber(){
     // create a random 9-digit number with a hyphen after digit 4
-    return ((Math.random() + .1) * 0.9 * 10000).toFixed(6).replace(/\./, '-');
+    return ((Math.random() + .1) * 0.9 * 10000).toFixed(6).replace(/\./,'-');
   }
 
-  deposit(label, amount, transactionDate = new Date()) {
-    if (transactionDate <= new Date()) {
-      this.balance += amount;
-    }
-    
-    this.history.unshift({
-      label: label, amount: amount,
-      time: this.formatTime(transactionDate)
-    });
+  deposit(label, amount){
+    this.balance += amount;
+    this.history.unshift({label: label, amount: amount, time: this.formatTime()});
   }
 
-  withdraw(label, amount, transactionDate = new Date()) {
-    this.deposit(label, -amount, transactionDate);
+  withdraw(label, amount){
+    this.deposit(label, -amount);
   }
 
-  formatTime(transactionDate) {
+  formatTime(){
     return new Intl.DateTimeFormat(
       'se-SV', {
         year: 'numeric',
@@ -35,7 +29,7 @@ class Account {
         day: 'numeric',
         hour: 'numeric',
         minute: 'numeric'
-      }).format(transactionDate);
+    }).format(new Date());
   }
 
 }
