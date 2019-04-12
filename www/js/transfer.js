@@ -16,8 +16,7 @@ class Transfer {
     $(this.form).find('#accountTypes').change(this.bankTypeChanged.bind(this));
     $(this.form).on("input", "input", (e) => e.target.setCustomValidity(""));
     //   $(this.form).find('#toAccountNumber').html(html);
-    $.datepicker.setDefaults($.datepicker.regional["sv"]);
-    $('#datepicker').datepicker();
+    
   }
 
   bankTypeChanged(e) {
@@ -64,7 +63,7 @@ class Transfer {
         }
 
         // Deposit or withdraw
-        accountFrom.withdraw(f.label, f.sum, new Date($("#datepicker").val()));
+        accountFrom.withdraw(f.label, f.sum);
         //   accountTo.deposit(f.label, f.sum);
         // account
         // Save the user data
@@ -92,7 +91,8 @@ class Transfer {
 
   checkForAmount() {
     let f = this.formdata;
-    let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
+    let accountFrom = App.user.accounts.filter(account =>
+       account.accountNumber === f.fromAccountNumber)[0];
     if (f.sum > accountFrom.balance) {
       f.errors.sum = 'Du har inte tillräckligt med pengar';
     }
@@ -115,7 +115,6 @@ class Transfer {
     if (f.sum > currentTransactionLimit) {
       f.errors.sum = 'Du kan inte överföra över 30000 under de senaste 7 dagarna';
     }
-
   }
 
   BalanceSum(items, prop) {
@@ -131,6 +130,7 @@ class Transfer {
       $(this.form + ' #' + key).siblings('.error').text(e[key]);
     }
   }
+
 
   showConfirmation(f) {
     const content = `
