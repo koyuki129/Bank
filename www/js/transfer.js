@@ -50,7 +50,9 @@ class Transfer {
     this.checkForNegativeNumber();
     this.checkForAmount();
 
-    this.checkTransferLimit();
+    if (!this.formdata.errors.sum) {
+      this.checkTransferLimit();
+    }
 
     this.displayErrors();
 
