@@ -43,3 +43,30 @@ table {
   background-color: lightblue;
   border-bottom: 1px solid #ffff;
 }
+
+
+/* make the menu float on small devices */
+@media (max-width: 767.98px){
+
+  aside {
+    display: none;
+    position: absolute !important;
+    right: 0;
+    top: 60px;
+    width: 40vw !important;
+    z-index: 100;
+  }
+
+  aside nav {
+    border: 0px solid #fff;
+    border-radius: 0px;
+  }
+
+  aside.shown {
+    display: block;
+  }
+
+
+
+}
+
