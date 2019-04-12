@@ -22,6 +22,8 @@ class AccountDetails {
   }
   
   show() {
+
+    $('.account-name').text(this.accountName);
     
     let html = '';
     // loop through the logged in users accounts and create html
