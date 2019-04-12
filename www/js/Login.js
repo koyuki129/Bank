@@ -31,8 +31,9 @@ class Login extends RegisterUser {
       $('.only-if-not-logged-in').hide();
       $('.username').text(App.user.username);
       // Goto the my start page
-      if (location.hash == '#login') {
+      if (location.hash == '#login'|| location.hash === "#register") {
         location.hash = '#start';
+        console.log("DID IT")
       }
       // Save the user file name in session storage as well
       // (so we can keep being login after hard page reloads)
