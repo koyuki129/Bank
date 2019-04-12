@@ -125,13 +125,10 @@ class Transfer {
   }
 
   displayErrors() {
-
-    const e = this.formdata.errors;
+    let e = this.formdata.errors;
     $(this.form + ' .error').empty();
-    for (const key of Object.keys(e)) {
-      // $(this.form + ' #' + key).siblings('.error').text(e[key]);
-      const elem = document.querySelector(this.form + " #" + key);
-      elem.setCustomValidity(e[key]);
+    for (let key in e) {
+      $(this.form + ' #' + key).siblings('.error').text(e[key]);
     }
   }
 
