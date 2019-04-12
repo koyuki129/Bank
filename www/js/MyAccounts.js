@@ -23,7 +23,7 @@ class MyAccounts {
           <th scope="row"><a class="account-details" href="#account-details">${account.name}</a></th>
           <td>${account.accountNumber}</td>
           <td class="text-right">${this.toSwedishFormat(account.balance)}</td>
-          <td><button class="remove-account">Ta bort</button></td>
+          <td><button class="btn btn-primary remove-account">Ta bort</button></td>
           <td><button type="button" class="changers btn btn-primary" data-toggle="modal" data-target="#changeNameModal">
             Ändra Kontonamn
           </button></td>
