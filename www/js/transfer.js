@@ -15,7 +15,6 @@ class Transfer {
     $(this.form).find('#fromAccountNumber').html(html);
     $(this.form).find('#accountTypes').change(this.bankTypeChanged.bind(this));
     $(this.form).on("input", "input", (e) => e.target.setCustomValidity(""));
-    //   $(this.form).find('#toAccountNumber').html(html);
     
   }
 
@@ -50,7 +49,9 @@ class Transfer {
     this.checkForNegativeNumber();
     this.checkForAmount();
 
-    this.checkTransferLimit();
+    if (!this.formdata.errors.sum) {
+      this.checkTransferLimit();
+    }
 
     this.displayErrors();
 
@@ -85,7 +86,7 @@ class Transfer {
   checkForNegativeNumber() {
     const f = this.formdata;
     if (f.sum < 0) {
-      f.errors.sum = 'Du får inte skriva ett negativt nummer';
+      f.errors.sum = 'Du får inte skriva ett negativt nummer.';
     }
   }
 
@@ -94,7 +95,7 @@ class Transfer {
     let accountFrom = App.user.accounts.filter(account =>
        account.accountNumber === f.fromAccountNumber)[0];
     if (f.sum > accountFrom.balance) {
-      f.errors.sum = 'Du har inte tillräckligt med pengar';
+      f.errors.sum = 'Du har inte tillräckligt med pengar.';
     }
   }
   
@@ -113,7 +114,7 @@ class Transfer {
     let last7DaysSum = (this.BalanceSum(allTransactions, 'amount') * -1);
     let currentTransactionLimit = 30000 - last7DaysSum;
     if (f.sum > currentTransactionLimit) {
-      f.errors.sum = 'Du kan inte överföra över 30000 under de senaste 7 dagarna';
+      f.errors.sum = 'Du kan inte överföra över 30000 under de senaste 7 dagarna.';
     }
   }
 
