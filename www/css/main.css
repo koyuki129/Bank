@@ -24,12 +24,12 @@ title {
 .only-if-logged-in, .only-if-not-logged-in {
   display: none;
 }
+
 a {
   color: #fff;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
-
 
 p {
   margin-top: -0.7rem;
